@@ -81,6 +81,8 @@ class Back extends Controller
                 'video_link2' => $request->video_link2,
                 'video_link3' => $request->video_link3,
                 'video_link4' => $request->video_link4,
+                'video_link5' => $request->video_link5,
+                'video_link6' => $request->video_link6,
                 
             ]
         );

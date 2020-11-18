@@ -292,7 +292,7 @@
                         <li class="org see_agree"><a href="javascript:void(0);" target="_blank">개인정보처리방침</a></li>
                         <li class="see_agree"><a href="javascript:void(0);" target="_blank">이메일무단수집거부</a></li>
                         <li class="see_agree"><a href="javascript:void(0);" target="_blank">저작권정책</a></li>
-                        <li><a href="https://www.hansik.or.kr/kr/board/contact/form/230?menuId=132" target="_blank">Contact Us</a></li>
+                        {{-- <li><a href="https://www.hansik.or.kr/kr/board/contact/form/230?menuId=132" target="_blank">Contact Us</a></li> --}}
                     </ul>
                     <div class="top_btn">
                         <img class="mo_none" src="/img/kr/go_top_btn.png" alt="">
@@ -312,10 +312,10 @@
                     </a>
                 </div>
                 <div class="text">
-                    <p>
+                    {{-- <p>
                         우)06774 서울특별시 서초구 강남대로 27 aT 센터 601호 (재) 한식진흥원<br/>
                         대표번호. 02-6300-2084 팩스번호. 02-6300-2085
-                    </p>
+                    </p> --}}
                     <p>
                         COPYRIGHT 2017 KFPI(Korean Food Promotion Institute) ALL RIGHTS RESERVED.
                     </p>

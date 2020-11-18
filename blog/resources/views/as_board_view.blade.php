@@ -36,6 +36,7 @@
                     </div>
                 </div>
 			</div> --}}
+			@if(request()->segment(2) == 'contest')
             <div class="write_line">
                 <div class="all_line">
                     <div class="line_title all_line_top">
@@ -127,15 +128,73 @@
                 </div>
             </div>
             <div class="write_line">
-                <div class="all_line all_line_bottom">
+                <div class="all_line">
                     <div class="line_title" style="vertical-align:middle;">응모 단위</div>
                     <div class="line_content">
                         <input readonly type="text" name="address" value="{{ $data->category3 }}" />
                     </div>
                 </div>
-            </div>		
+			</div>
+			<div class="write_line">
+                <div class="all_line all_line_bottom">
+                    <div class="line_title" style="vertical-align:middle;">등록일</div>
+                    <div class="line_content">
+                        <input readonly type="text" name="address" value="{{ $data->reg_date }}" />
+                    </div>
+                </div>
+			</div>
+			@elseif(request()->segment(2) == 'inquiry')
+			<div class="write_line">
+                <div class="all_line">
+                    <div class="line_title all_line_top">
+                        제목
+                    </div>
+                    <div class="line_content">
+                        <input type="text" name="writer" value="{{ $data->subject }}" readonly style="">
+                    </div>
+                </div>
+            </div>
+            <div class="write_line">
+                <div class="all_line">
+                    <div class="line_title" style="vertical-align:top;">
+                        내용
+                    </div>
+                    <div class="line_content">
+                        <textarea readonly style="border: 1px solid #ddd; padding: 10px; min-width: 400px; min-height: 200px;">{{ $data->contents }}</textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="write_line">
+                <div class="all_line">
+                    <div class="line_title all_line_top">
+                        이름
+                    </div>
+                    <div class="line_content">
+                        <input readonly type="text" name="writer" value="{{ $data->writer }}" readonly style="">
+                    </div>
+                </div>
+            </div>
+            <div class="write_line">
+                <div class="all_line">
+                    <div class="line_title">
+                        이메일
+                    </div>
+                    <div class="line_content">
+                        <input readonly type="text" name="subject" value="{{ $data->email }}" />
+                    </div>
+                </div>
+			</div>
+			<div class="write_line">
+                <div class="all_line all_line_bottom">
+                    <div class="line_title" style="vertical-align:middle;">등록일</div>
+                    <div class="line_content">
+                        <input readonly type="text" name="address" value="{{ $data->reg_date }}" />
+                    </div>
+                </div>
+			</div>
+			@endif
             <div class="submit_box" style="text-align:center;margin-top:10px;">
-                <input type="submit" value="뒤로가기" onclick="javascript:history.go(-1)">
+                <input type="reset" value="뒤로가기" onclick="javascript:history.go(-1)">
             </div>
         </div>
     </form>

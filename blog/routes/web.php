@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Front@main');
+Route::get('/en', 'Front@main');
 
 Route::get('/kr/pop_01', 'Front@pop');
 Route::get('/kr/pop_02', 'Front@pop');
@@ -23,7 +24,16 @@ Route::get('/kr/frame/pop01', 'Front@frame');
 Route::get('/kr/frame/pop02', 'Front@frame');
 Route::get('/kr/frame/pop03', 'Front@frame');
 
+Route::get('/en/pop_01', 'Front@pop');
+Route::get('/en/pop_02', 'Front@pop');
+Route::get('/en/pop_03', 'Front@pop');
+Route::get('/en/pop_04', 'Front@pop');
+Route::get('/en/frame/pop01', 'Front@frame');
+Route::get('/en/frame/pop02', 'Front@frame');
+Route::get('/en/frame/pop03', 'Front@frame');
+
 Route::post('/comment_action', 'Front@comment_action');
+Route::post('/check_apply', 'Front@check_apply');
 
 Route::get('/as_admin/login', 'Back@as_login');
 Route::post('/as_admin/login_action', 'Back@as_login_action');

@@ -35,12 +35,32 @@
                 </div>
             </div>
             <div class="write_line">
-                <div class="all_line all_line_bottom">
+                <div class="all_line">
                     <div class="line_title">
                         공모샘플 영상2
                     </div>
                     <div class="line_content">
                         <input type="text" name="video_link4" value="{{ $data->video_link4 }}">
+                    </div>
+                </div>
+            </div>
+            <div class="write_line">
+                <div class="all_line">
+                    <div class="line_title">
+                        공모전 영상 (김치)
+                    </div>
+                    <div class="line_content">
+                        <input type="text" name="video_link5" value="{{ $data->video_link5 }}">
+                    </div>
+                </div>
+            </div>
+            <div class="write_line">
+                <div class="all_line">
+                    <div class="line_title all_line_bottom">
+                        공모전 영상 (한식)
+                    </div>
+                    <div class="line_content">
+                        <input type="text" name="video_link6" value="{{ $data->video_link6 }}">
                     </div>
                 </div>
             </div>

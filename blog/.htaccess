@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteBase /
 RewriteCond $1 !^(public)/
-RewriteCond %{HTTP_HOST} ^(www.)?doit2020.gabia.io [NC]
+RewriteCond %{HTTP_HOST} ^(www.)?playkoreanfood.com [NC]
 RewriteRule ^(.*)$ /public/$1 [L]

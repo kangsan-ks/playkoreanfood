@@ -8,385 +8,154 @@
     </head>
     <body>
         <div class="content-box">
-            <h2 class="category-title"><i class="ico"></i> 개인정보처리방침</h2>
-            <div class="simple-line-text">
-                <div class="asset">
-                    <p>한식진흥원(이하 ‘진흥원’이라 한다.)은 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
-                </div>
-                <div class="asset">
-                    <h4>제1조 (개인정보의 처리 목적)</h4>
-                    <ul>
-                        <li>① 진흥원은 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 정보주체로부터 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</li>
-                        <ul>
-                            <li><p>1. 한식진흥원 통합 회원가입 및 관리</p>
-                                <p>-&nbsp;회원 가입의사 확인, 회원제 서비스 제공에 따른 본인 식별·인증, 회원자격 유지·관리, 서비스 부정이용 방지, 만14세 미만 아동 개인정보 수집 시 법정대리인 동의 여부 확인, 각종 고지·통지, 고충처리, 분쟁 조정을 위한 기록 보존 등을 목적으로 개인정보를 처리합니다.</p>
-                            </li>
-                            <li><p>2. 민원사무 처리</p>
-                                <p>-&nbsp;민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락·통지, 처리결과 통보 등을 목적으로 개인정보를 처리합니다.</p>
-                            </li>
-                        </ul>
-                        <li>② 진흥원은 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보 수집 시 동의 받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.</li>
-                        <li>③ 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제2조(개인정보의 처리 및 보유기간)</h4>
-                    <ul>
-                        <li>① 진흥원은 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.</li>
-                        <li>② 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.</li>
-                    </ul>
-                </div>
-        
-                <!-- data-table -->
-                <div class="asset m-overscroll">
-                    <table border="1" class="data-table large">
-                        <caption>개인정보 처리</caption>
-                        <colgroup>
-                            <col style="width:5%">
-                            <col style="width:">
-                        </colgroup>
-                        <thead>
-                          <tr>
-                            <th scope="col" rowspan="2">번호</th>
-                            <th scope="col" rowspan="2">개인정보 파일명</th>
-                            <th scope="col" rowspan="2">처리근거</th>
-                            <th scope="col" rowspan="2">처리목적</th>
-                            <th scope="col" colspan="2">개인정보항목</th>
-                            <th scope="col" rowspan="2">보유기간</th>
-                            <th scope="col" rowspan="2">방법</th>
-                        </tr>
-                        <tr>
-                            <th scope="col">필수</th>
-                            <th scope="col">선택</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>통합회원정보</td>
-                                <td>정보주체의동의</td>
-                                <td>통합 서비스 정보제공 및 회원구분</td>
-                                <td>이름, E-Mail</td>
-                                <td>연락처(핸드폰, 기타), 집주소</td>
-                                <td>회원탈퇴시 까지</td>
-                                <td>온라인</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>건강한식서포터즈</td>
-                                <td>정보주체의동의</td>
-                                <td>건강한식 서포터즈 접수, 선발, 지원 등 서포터즈 운영</td>
-                                <td>이름, 집주소, 이메일, 핸드폰(연락처), 생년월일</td>
-                                <td>SNS 계정</td>
-                                <td>2년</td>
-                                <td>온라인</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>전문인력 양성사업 참여자 명단</td>
-                                <td>정보주체의동의</td>
-                                <td>사업운영, 사후관리 및 구인구직 정보제공 등</td>
-                                <td>이름, 생년월일, 연락처, E-Mail, 주소</td>
-                                <td>소속, 학력, 자격, 경력, 수상내역</td>
-                                <td>5년</td>
-                                <td>온라인/오프라인</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>한식문화관 체험고객 명단</td>
-                                <td>정보주체의동의</td>
-                                <td>체험고객 대상 신규 과정 및 이벤트 안내</td>
-                                <td>이름, 이메일, 핸드폰(연락처)</td>
-                                <td>소속</td>
-                                <td>1년</td>
-                                <td>오프라인</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <!-- //data-table -->
-        
-                <div class="asset">
-                    <ul>
-                        <li>※ 상세한 진흥원의 개인정보파일 등록사항 공개는 행정안전부 개인정보보호 종합지원 포털(www.privacy.go.kr) → 개인정보민원 → 개인정보열람등 요구 → 개인정보파일 목록검색 메뉴를 활용해주시기 바랍니다.</li>
-                        <li>※ 1년 이상 로그인 기록이 없을 시 휴면계정 전환되며, 휴면계정으로 전환 후 1년 이상 로그인 기록이 없는 회원의 통합회원정보는 삭제됩니다.</li>
-                    </ul>
-                </div>
-        
-        
-                <div class="asset">
-                    <h4>제3조(개인정보의 제3자 제공)</h4>
-                    <ul>
-                        <li>① 진흥원은 원칙적으로 정보주체의 개인정보를 수집·이용 목적으로 명시한 범위 내에서 처리하며, 다음의 경우를 제외하고는 정보주체의 사전 동의 없이는 본래의 목적 범위를 초과하여 처리하거나 제3자에게 제공하지 않습니다. 다만, 제5호부터 제9호까지는 공공기관의 경우로 한정합니다.</li>
-                        <ul>
-                            <li>
-                                <p>1. 정보주체로부터 별도의 동의를 받는 경우</p>
-                            </li>
-                            <li>
-                                <p>2. 다른 법률에 특별한 규정이 있는 경우</p>
-                            </li>
-                            <li>
-                                <p>3. 정보주체 또는 그 법정대리인이 의사표시를 할 수 없는 상태에 있거나 주소불명 등으로 사전 동의를 받을 수 없는 경우로서 명백히 정보주체 또는 제3자의 급박한 생명, 신체, 재산의 이익을 위하여 필요하다고 인정되는 경우</p>
-                            </li>
-                            <li>
-                                <p>4. 통계작성 및 학술연구 등의 목적을 위하여 필요한 경우로서 특정 개인을 알아볼 수 없는 형태로 개인정보를 제공하는 경우</p>
-                            </li>
-                            <li>
-                                <p>5. 개인정보를 목적 외의 용도로 이용하거나 이를 제3자에게 제공하지 아니하면 다른 법률에서 정하는 소관 업무를 수행할 수 없는 경우로서 보호위원회의 심의·의결을 거친 경우</p>
-                            </li>
-                            <li>
-                                <p>6. 조약, 그 밖의 국제협정의 이행을 위하여 외국정부 또는 국제기구에 제공하기 위하여 필요한 경우</p>
-                            </li>
-                            <li>
-                                <p>7. 범죄의 수사와 공소의 제기 및 유지를 위하여 필요한 경우</p>
-                            </li>
-                            <li>
-                                <p>8. 법원의 재판업무 수행을 위하여 필요한 경우</p>
-                            </li>
-                            <li>
-                                <p>9. 형 및 감호, 보호처분의 집행을 위하여 필요한 경우</p>
-                            </li>
-                        </ul>
-                        <li>② 진흥원은 개인정보를 위 1호부터 제9호에 따라 개인정보를 목적 외의 용도로 이용하거나 이를 제3자에게 제공하는 경우 행정안전부령으로 정하는 바에 따라 관보 또는 홈페이지 등에 공개하겠습니다.</li>
-                        <li>③ 진흥원은 다음과 같이 개인정보를 제3자에게 제공하고 있습니다.</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <a class="btn large weightiest" href="https://www.hansik.or.kr/kr/html/htmlDetal.do?htmlId=39&amp;menuId=113">- 개인정보의 제3자 제공알림 게시판 바로가기</a>
-                </div>
-        
-                <div class="asset">
-                    <h4>제4조(개인정보처리의 위탁)</h4>
-                    <p>① 진흥원은 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.</p>
-                </div>
-        
-                <!-- data-table -->
-                <div class="asset m-overscroll">
-                    <table border="1" class="data-table large">
-                        <caption>개인정보처리의 위탁</caption>
-                        <colgroup>
-                            <col style="width:5%">
-                            <col style="width:">
-                        </colgroup>
-                        <thead>
-                        <tr>
-                            <th scope="col">순번</th>
-                            <th scope="col">수탁업체</th>
-                            <th scope="col">위탁 목적</th>
-                            <th scope="col">위탁 내용</th>
-                            <th scope="col">위탁기간</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>(주)중외정보기술<br>(02-801-1000)</td>
-                            <td>시스템 통합 운영 및 유지보수</td>
-                            <td>통합회원 정보 및 한식조리 전문인력 정보(교육생, 강사, 구직자)</td>
-                            <td>2020.1.1.~ 2020.12.31.</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>(주)오파스넷<br>(02-2193-8600)</td>
-                            <td>시스템 통합 운영 및 유지보수</td>
-                            <td>통합회원 정보 및 한식조리 전문인력 정보(교육생, 강사, 구직자)</td>
-                            <td>2020.1.1.~ 2020.12.31.</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <!-- //data-table -->
-                <div class="asset">
-                    <ul>
-                        <li>② 진흥원은 위탁계약 체결 시 위탁업무 수행목적 외 개인정보 처리금지, 기술적·관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고 있습니다.</li>
-                        <li>③ 진흥원은 수탁자가 업무 위탁으로 인하여 정보주체의 개인정보가 분실·도난·유출·변조 또는 훼손되지 않도록 수탁자를 연 1회 이상 교육을 실시하고 있으며, 개인정보를 안전하게 처리하는지를 월 1회 현황점검 등을 통해 감독하고 있습니다.</li>
-                        <li>④ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체 없이 본 개인정보처리방침을 통하여 공개하도록 하겠습니다.</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제5조(정보주체와 법정대리인의 권리·의무 및 행사방법)</h4>
-                    <ul>
-                        <li>① 정보주체는 진흥원에 대해 언제든지 개인정보 열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다.</li>
-                        <li>② 제1항에 따른 권리 행사는 제10조(개인정보 열람청구)를 통한 서면, 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있으며, 진흥원은 이에 대해 지체 없이 조치하겠습니다.</li>
-                        <li>③ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 서식에 따른 위임장을 제출하셔야 합니다.</li>
-                        <li>
-                            ④ 개인정보 열람 및 처리정지 요구는 개인정보보호법에 의하여 정보주체의 권리가 제한 될 수 있습니다.
-                            <ul>
-                                <li>
-                                    1. 다음 각 호의 어느 하나에 해당하는 경우에는 정보주체에게 그 사유를 알리고 열람을 제한하거나 거절할 수 있습니다.
-                                    <ul>
-                                        <li>가. 법률에 따라 열람이 금지되거나 제한되는 경우</li>
-                                        <li>나. 다른 사람의 생명·신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우</li>
-                                        <li>다. 진흥원이 다음 각 목의 어느 하나에 해당하는 업무를 수행할 때 중대한 지장을 초래하는 경우</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    2. 다음 각 호의 어느 하나에 해당하는 경우에는 정보주체에게 처리정지 요구를 거절할 수 있습니다.
-                                    <ul>
-                                        <li>가. 법률에 특별한 규정이 있거나 법령상 의무를 준수하기 위하여 불가피한 경우</li>
-                                        <li>나. 다른 사람의 생명·신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우</li>
-                                        <li>다. 진흥원이 개인정보를 처리하지 아니하면 다른 법률에서 정하는 소관 업무를 수행할 수 없는 경우</li>
-                                        <li>라. 개인정보를 처리하지 아니하면 정보주체와 약정한 서비스를 제공하지 못하는 등 계약의 이행이 곤란한 경우로서 정보주체가 그 계약의 해지 의사를 명확하게 밝히지 아니한 경우</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>⑤ 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.</li>
-                        <li>⑥ 진흥원은 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구, 처리정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인합니다.</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제6조(개인정보의 파기)</h4>
-                    <ul>
-                        <li>① 진흥원은 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.</li>
-                        <li>② 정보주체로부터 동의 받은 개인정보 보유기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보(또는 개인정보파일)을 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다.</li>
-                        <li>③ 개인정보 파기의 절차 및 방법은 다음과 같습니다.</li>
-                        <ol>
-                            <li>파기절차 : 진흥원은 파기하여야 하는 개인정보(또는 개인정보파일)에 대해 개인정보 파기계획을 수립하여 파기합니다. 진흥원은 파기 사유가 발생한 개인정보(또는 개인정보파일)을 선정하고, 진흥원은 개인정보 보호책임자의 승인을 받아 개인정보(또는 개인정보파일)을 파기합니다. 또한, 보존기간이 경과하거나 목적이 달성된 개인정보는 내부 방침 및 기타 관련 법령에 따라 파기합니다.</li>
-                            <li>파기방법 : 진흥원은 전자적 파일 형태로 기록·저장된 개인정보는 기록을 재생할 수 없도록 기술적으로 복원할 수 없는 방법을 이용하여 영구 삭제하며, 종이 문서에 기록·저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.</li>
-                        </ol>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제7조(개인정보의 안전성 확보조치)</h4>
-                    <ul>
-                        <li>① 진흥원은 다음과 같이 개인정보의 안전성 확보에 필요한 기술적, 관리적, 물리적 조치를 하고 있습니다. </li>
-                        <ol>
-                            <li>1. 내부관리계획의 수립 및 시행 : 개인정보의 안전한 처리를 위하여 내부관리계획을 수립하고 시행하고 있습니다.</li>
-                            <li>2. 개인정보 취급자의 최소화 및 교육 : 개인정보를 취급하는 담당자는 반드시 필요한 인원에 한하여 지정·관리하고 있으며 취급자를 대상으로 안전한 관리를 위한 교육을 실시하고 있습니다.</li>
-                            <li>3. 개인정보에 대한 접근제한 : 개인정보를 처리하는 데이터베이스시스템에 대한 접근권한의 부여·변경·말소를 통하여 개인정보에 대한 접근통제를 위한 필요한 조치를 하고 있으며 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있습니다.</li>
-                            <li>4. 접속기록의 보관 및 위변조 방지 : 개인정보처리시스템에 접속한 기록(로그)을 최소 6개월 이상 보관, 관리하고 있으며, 접속 기록이 위변조 및 도난, 분실되지 않도록 보안기능을 사용하고 있습니다.</li>
-                            <li>5. 개인정보의 암호화 : 정보주체의 고유식별정보와 비밀번호는 암호화 되어 관리되고 있습니다. 또한 중요한 데이터는 저장 및 전송 시 암호화하여 사용하는 등의 별도 보안기능을 적용하고 있습니다.</li>
-                            <li>6. 해킹 등에 대비한 기술적 대책 : 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신/점검을 하며 외부로부터 접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고 있습니다.</li>
-                            <li>7. 비인가자에 대한 출입 통제 : 개인정보를 보관하고 있는 개인정보시스템의 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.</li>
-                            <li>8. 정기적인 자체 점검 실시 : 개인정보 취급과 관련된 안정성 확보를 위해 정기적으로 개인정보 보호를 위한 점검을 실시하고 있습니다.</li>
-                        </ol>
-        
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제8조(개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항)</h4>
-                    <p>① 진흥원은 인터넷 접속정보파일 등 개인정보를 자동으로 수집하는 장치를 설치·운영하지 않습니다.</p>
-                </div>      
-        
-                <div class="asset">
-                    <h4>제9조(개인정보 보호책임자)</h4>
-                    <ul>
-                        <li>① 진흥원은 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보보호 담당자를 지정하고 있습니다.</li>
-                        <li>
-                            <!-- data-table -->
-                            <div class="asset m-overscroll">
-                                <table border="1" class="data-table large">
-                                    <caption>개인정보 보호책임자</caption>
-                                    <colgroup>
-                                        <col style="width: 20%">
-                                        <col style="width:20%">
-                                        <col style="width:20%">
-                                        <col style="width:20%">
-                                        <col style="width:20">
-                                    </colgroup>
-                                    <thead>
-                                    <tr align="center">
-                                        <th scope="col">구 분</th>
-                                        <th scope="col">성 명</th>
-                                        <th scope="col">직 책</th>
-                                        <th scope="col">전화번호</th>
-                                        <th scope="col">이메일</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>개인정보보호 책임자</td>
-                                        <td>우승완</td>
-                                        <td>경영기획팀장</td>
-                                        <td>02-6300-2080</td>
-                                        <td>woosw@hansik.or.kr</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- //data-table -->
-                        </li>
-        
-                        <li>② 정보주체께서는 진흥원의 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다. 진흥원은 정보주체의 문의에 대해 지체없이 답변 및 처리해 드릴 것입니다.</li>
-                    </ul>
-                </div>
+            <h2 class="category-title"><i class="ico"></i> Terms and Conditions</h2>
+            <div class="popup_body">
+                <center><font size="3"><b>Chapter 1. General Provisions</b></font></center><br>
+                <b>Article 1. (Purpose) </b><br> The purpose of these Terms of Use is to set forth the terms and conditions under which the Korean Food Promotion Institute (hereinafter the "Promotion Institute") provides online membership service (hereinafter the "Service"). The Terms of Use shall be formed pursuant to Article 5.<br><br>
+                <b>Article 2. (Effect &amp; Modification) </b><br> ① The Service shall be effective under Article 5 and supersede any other terms and conditions in relation to the provision of the Service.<br>
+                 ② The Promotion Institute may modify these Terms at its sole discretion and post the modified Terms within the Service or by e-mail to its members. The modified Terms shall be effective upon announcement. Members may cancel their membership if they do not agree with the modified Terms. Otherwise, they shall be deemed to have accepted.<br><br> 
+                <b>Article 3. (Governing Regulations) </b><br> Any matters not specified hereunder shall be governed by the applicable laws and regulations including the Framework Act on Broadcasting Communications Development and Telecommunications Business Act.<br><br>
+                <b>Article 4. (Definitions) </b><br> The following terms shall have the following meanings in these Terms.<br>
+                ① User: Individuals or entities who apply to use the Service<br>
+                ② Registration: Filling out the application form provided by the Promotion Institute (including the online registration form) and agreeing to these Terms of Use to finalize the service agreement<br>
+                ③ ID: A combination of letters and numbers requested by the User for use of the Service and approved by the Promotion Institute<br>
+                ④ Password: A combination of letters and numbers set by the User to protect its privacy<br>
+                ⑤ Device: Telecommunication device including PC installed by the User for use of the Service<br>
+                ⑥ Operator: A staff member designated by the Promotion Institute for smooth management and operation of the Service<br>
+                ⑦ Use of Service: Telecommunication activities by the User from the moment they access the Service by entering their ID and password until the moment they log out<br>
+                ⑧ Service Guide: Announcement of the Promotion Institute made to the User regarding the conditions and procedures of the Service use<br>
+                ⑨ Withdrawal: Terminating the service agreement by the User<br><br><br>
                 
-                <div class="asset">
-                    <h4>제10조(개인정보 열람청구)</h4>
-                    <ul>
-                        <li>① 정보주체는 개개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. 진흥원은 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다.</li>
-                        <li>▶ 개인정보 열람청구 접수·처리자
-                            <ol class="list-none">
-                                <li>부서명 : 경영기획팀</li>
-                                <li>담당자 : 조무성</li>
-                                <li>연락처 : 02-6300-2083, lexcho@hansik.or.kr,  Fax) 02-6300-2085</li>
-                            </ol>
-                        </li>
-                        
-                        <li>② 정보주체께서는 제1항의 열람청구 접수·처리부서 이외에, 행정안전부의 ‘개인정보보호 종합지원 포털’ 웹사이트(www.privacy.go.kr)를 통하여서도 개인정보 열람청구를 하실 수 있습니다.</li>
-                        <li>▶ 행정안전부 개인정보보호 종합지원 포털 → 개인정보 민원 → 개인정보 열람등 요구(공공아이핀을 통한 실명인증 필요)</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제11조(권익침해 구제방법)</h4>
-                    <p>① 정보주체는 아래의 기관에 대해 개인정보 침해에 대한 피해구제, 상담 등을 문의하실 수 있습니다.</p>
-                    <p>아래의 기관은 한식진흥원 과는 별개의 기관으로서, 진흥원의 자체적인 개인정보 불만처리, 피해구제 결과에 만족하지 못하시거나 보다 자세한 도움이 필요하시면 문의하여 주시기 바랍니다.</p>
-                    <ul>
-                        <li>▶ 개인정보 침해신고센터 (한국인터넷진흥원 운영)</li>
-                            <ol class="list-none">
-                                <li>- 소관업무 : 개인정보 침해사실 신고, 상담 신청</li>
-                                <li>- 홈페이지 : privacy.kisa.or.kr</li>
-                                <li>- 전화 : 118</li>
-                                <li>- 주소 : (58324) 전남 나주시 진흥길 9(빛가람동 301-2) 3층 개인정보침해신고센터</li>
-                            </ol>
-                        <li>▶ 개인정보 분쟁조정위원회</li>
-                            <ol class="list-none">
-                                <li>- 소관업무 : 개인정보 분쟁조정신청, 집단분쟁조정 (민사적 해결)</li>
-                                <li>- 홈페이지 : www.kopico.go.kr</li>
-                                <li>- 전화 : 1833-6972</li>
-                                <li>- 주소 : (03171) 서울특별시 종로구 세종대로 209 정부서울청사 4층</li>
-                            </ol>
-                        <li>▶ 대검찰청 사이버범죄수사단 : 02-3480-3571 (www.spo.go.kr)</li>                             
-                        <li>▶ 경찰청 사이버안전국 : 182 (cyberbureau.police.go.kr)</li>                              
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>제12조(개인정보 처리방침 변경)</h4>
-                    <ul>
-                        <li>① 이 개인정보 처리방침은 2020. 4. 29.부터 제정되어 적용됩니다.</li>
-                        <li>② 이전의 개인정보 처리방침은 아래에서 확인할 수 있습니다.</li>
-                    </ul>
-                </div>
-        
-                <div class="asset">
-                    <h4>[이전 내용 바로가기]</h4>
-                    <!-- data-table -->
-                    <div class="asset m-overscroll">
-                        <table border="1" class="data-table large">
-                            <caption>개인정보처리의 위탁</caption>
-                            <tbody><tr>
-                                <td><a href="https://www.hansik.or.kr/files/request/03_2020y.pdf">· 2020년 4월 29일 이전방침</a></td>
-                                <td><a href="https://www.hansik.or.kr/files/request/02_2018y.pdf">· 2019년 6월 8일 이전방침</a></td>
-                                <td><a href="https://www.hansik.or.kr/files/request/01_2013y.pdf">· 2018년 5월 31일 이전방침</a></td>
-                            </tr>
-                            <tr>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                            </tr>
-                        </tbody></table>    
-                    </div>
-                    <!-- //data-table -->
-                </div>
+                <center><font size="3"><b>Chapter 2. Signing Service Agreement</b></font></center><br>
+                <b>Article 5. (Formation)</b><br> ① The service agreement shall be formed when the User accesses the Service and applies for the membership and the Promotion Institute approves such application.<br>
+                 ② The service agreement shall be formed when the User accesses the Service and applies for the membership and the Promotion Institute approves such application.<br>
+                 ③ The Promotion Institute operates an integrated management system that includes a Korean food portal, international Korean restaurant consultative group, and Korean culinary training and education. Therefore, members can use the website operated by the Promotion Institute by logging in with their IDs and passwords. The Promotion Institute only provides the Service for the members who have agreed to such integrated operation when they apply for the Service.<br>
+                 ④ One agrees to the Terms of Use by clicking "I Agree" when applying for the Service.<br>
+                 ⑤ The Promotion Institute may cancel the registration if the applicant does any of the following.<br>
+                 1. Apply for the service using another person's identity.<br>
+                 2. Provide false information on the application form.<br>
+                 3. Interfere with another person's use of the Service or steals their information.<br>
+                 4. Violate the applicable laws or the Terms of Use.<br>
+                 5. Fail to meet the application requirements set by the Promotion Institute. <br><br>
+                <b>Article 6. (Application for Service) </b><br> ① The User shall apply for the service online by providing the following information.<br>
+                 ② The following information shall be required of all applicants.<br>
+                 1. ID<br>
+                 2. Password<br>
+                 3. Name<br>
+                 4. E-mail<br>
+                 ③ The following information shall be optional.<br>
+                 1. Zip Code<br>
+                 2. Address<br>
+                 3. Contact Information<br>
+                 4. Mobile Phone Numbe<br>
+                 ④ Additional information may be required when using international consultative groups' websites and the Korean culinary training management system.<br><br>
+                 
+                <b>Article 7. (Acceptance of Application) </b><br> ① The Promotion Institute shall accept the application if the User provides all the information required under Article 6.<br> 
+                 ② The Promotion Institute may withhold its acceptance of the application if any of the following apply.<br> 
+                 1. No facilities are available. 2. The problem cannot be solved technically. 3. It is deemed necessary by the Promotion Institute.<br> 
+                 ③  The Promotion Institute may withhold its acceptance or reject the application if the applicant does any of the following.<br> 
+                 1. Apply for the service using another person's identity.<br> 
+                 2. Provide false information on the application form or forges documents.<br> 
+                 3. Apply to disrupt public order or adversely affect good social customs.<br> 
+                 4. Applicant is not allowed to use the Service under Article 16.<br> 
+                 5. Fail to meet the application requirements set by the Promotion Institute.<br> <br> <br>
+                
+                <center><font size="3"><b>Chapter 3. Use of Service</b></font></center><br>
+                <b>Article 8. (Consent to Use Personal Information)</b><br> ① All members' personal information shall be protected pursuant to the Personal Information Protection Act.<br> 
+                 ② The member's personal information shall be used, managed, and protected as follows.<br> 
+                 1. Use of Personal Information: The Promotion Institute website shall not disclose the member's personal information collected for the provision of the Service to any third party without their consent unless required by a government authority under the applicable laws.<br> 
+                 2. Management of Personal Information: The User may edit or delete their personal information if required by the Service in order to protect and manage their personal information.<br> 
+                 3. Protection of Personal Information: Personal information shall be accessed or edited by its respective owners and protected by the User's ID and password, which shall not be disclosed to others.<br><br>  
+                
+                <b>Article 9. (Security of User's Personal Information) </b><br> ① Upon completion of the application process set by the Promotion Institute, the applicants shall keep their personal information secure and take full responsibility for any consequences resulting from the use of the member's ID and password.<br> 
+                 ② The User shall be responsible for keeping their ID and password secret and secure and immediately inform the Promotion Institute if they become aware that their ID or password has been compromised. The Promotion Institute shall not be responsible for damages caused by the User's negligence in this regard.<br><br>   
+                
+                <b>Article 10. (Service Hours) </b><br> ① The Service shall be available 24 hours a day, 7 days a week unless interrupted by operational or technical difficulties or scheduled maintenance as announced by the Promotion Institute.<br> 
+                 ② The Promotion Institute may divide the Service into certain segments and set specific service hours for each segment with prior notice. <br> <br> 
+                
+                <b>Article 11. (Management of Online ID)</b><br> ① The User shall be responsible for keeping their online ID and password secure.<br> 
+                 ② The Promotion Institute shall not change or assign the User's online ID when performing system administration tasks including the community board.<br> 
+                 ③ The User shall be solely responsible for any negligence on their part or wrongful use by a third party in relation to their online ID and password. <br> <br> 
+                
+                <b>Article 12. (Use of Service) </b><br> The Promotion Institute shall post or announce any information required for the use of the Service.<br> <br> 
+                
+                <b>Article 13. (Change of Service Content)</b><br> The Promotion Institute shall notify or announce any necessary changes in the Terms of Use when the service content is changed or new content is introduced. <br> <br> 
+                
+                <b>Article 14. (Data Storage) </b><br> The Promotion Institute may limit the time of storing the data posted by the User for each service area. <br> <br> 
+                <b>Article 15. (Termination of Service Agreement)</b><br> ① Members may terminate the service agreement at any time through the account information menu, and the Promotion Institute shall immediately process their request under the applicable laws.<br> 
+                 ② If the member terminates the agreement, then the Promotion Institute shall delete all personal information collected except for information to be retained by the Promotion Institute under the applicable laws and privacy policy. <br> <br> 
+                
+                <b>Article 16. (Service Restrictions)</b><br> ① The Promotion Institute may restrict or stop the use of the Service at its sole discretion if the member violates the Terms of Use.<br> 
+                 ② The Promotion Institute may terminate the service agreement or suspend the use of the Service for the infringement of a third party's copyright if the User does any of the following.<br>  
+                 1. Use another person's service ID or password.<br> 
+                 2. Intentionally interrupt the operation of the Service.<br> 
+                 3. Distribute any information that can disrupt public order or adversely affect good social customs.<br> 
+                 4. Use the service to damage national or social interests.<br> 
+                 5. Damage another person's reputation or cause disadvantage to that person.<br> 
+                 6. Commit any act that is deemed inappropriate.<br> <br> 
+                
+                <b>Article 17. (Suspension of Service)</b><br> ① The Promotion Institute may suspend the operation of the Service if any of the following apply.<br>  
+                 1. It is required for the purpose of repairing or maintaining the Service facilities.<br> 
+                 2. The telecommunication service provider defined under the Telecommunication Business Act stops providing telecommunication service.<br> 
+                 ② The Promotion Institute may limit or suspend, in whole or in part, the Service in the event of national emergency, blackout, system failure, or user overload.<br><br>   
+                
+                <b>Article 18. (Duties of Promotion Institute)</b><br> ① The Promotion Institute shall keep the Service operation facilities available at all times.<br> 
+                 ② The Promotion Institute shall repair or recover the Service operation facilities in the event of system failure or interruption. <br> <br> 
+                
+                <b>Article 19. (Duties of User)</b><br> ① The User shall not do any of the following. <br> 
+                 1. Use another user's service ID in appropriately.<br> 
+                 2. Use the information obtained from the Service for purposes other than intended, or duplicate, publish, broadcast, or distribute such information to third parties without the Promotion Institute's consent.<br> 
+                 3. Make a slanderous remark against another user or third party or damage their reputation.<br> 
+                 4. Infringe a third party's copyright or other rights.<br> 
+                 5. Distribute any information, patterns, or drawings that can disrupt public order or adversely affect good social customs.<br> 
+                 6. Engage in any criminal activities.<br> 
+                 7. Violate any laws and regulations. <br> 
+                 ② The User shall comply with the Terms of Use, service announcements, guidelines, and rules.<br> 
+                 ③ The User shall not engage in any sales activities using the Service unless authorized by the Promotion Institute. The Promotion Institute shall not be responsible for any consequences or losses caused by such activities.<br> 
+                 ④ The User shall compensate the Promotion Institute for any infringement of the rights under the applicable laws, including damaging the information provided by the Promotion Institute and distributing it without authorization. <br><br>  
+                
+                <b>Article 20. (Posted Materials of User)</b><br> The Promotion Institute may remove any content of the information posted by the User without prior notice if it contains any of the following.<br> 
+                 1. Information that can damage the reputation of another user or a third party<br> 
+                 2. Information that can damage the reputation of another user or a third party<br> 
+                 3. Information related to any criminal activities<br> 
+                  4. In formation that infringes a third party's right including copyright<br> 
+                 5. Information that expires under the rules of the Promotion Institute<br> 
+                 6. Information that violates any applicable laws<br> <br> 
+                
+                <b>Article 21. (Copyright of Posted Materials) </b><br> ① Users shall retain the copyright on any materials they post on the Service. The Promotion Institute shall not be responsible for any infringement of a third party's intellectual property or copyright.<br> 
+                 ② Users shall retain the copyright on any materials they post on the Service. The Promotion Institute shall not be responsible for any infringement of a third party's intellectual property or copyright.<br> <br> 
+                
+                <b>Article 22. (Service Fee) </b><br> The Promotion Institute provides that membership information service free of charge, provided that it shall give prior notice if any part of the Service requires payment.<br> <br><br>  
+                
+                <center><font size="3"><b>Chapter 4. Miscellaneous</b></font></center><br>
+                <b>Article 23. (Damage Compensation) </b><br> The Promotion Institute shall be responsible for any damages it causes to the information owner by violating the Personal Information Protection Act unless proven otherwise.<br> <br> 
+                
+                <b>Article 24. (Exclusion)</b><br> ① The Service shall not be responsible for the loss of information or its unavailability caused by natural disaster, war, or any force majeure events.<br> 
+                 ② The Service shall not be responsible for any damages or losses caused by the telecommunication service provider.<br>
+                 ③ The Service shall not be responsible for any damages or losses caused by any repair, replacement, or maintenance work performed on the service facilities.<br>
+                  ④ The Service shall not be responsible for any damages or losses caused by the User's PC errors or failure to provide accurate personal information or e-mail address.<br>
+                 ⑤ The Service shall not be responsible for any damages or interruption of the Service caused by the User.<br>
+                 ⑥ The Service shall not represent any opinions or information contained in the Service and shall not be responsible for any damages or losses caused by not approving, disagreeing, or changing the opinions posted by the User.<br>
+                 ⑦ The Service may not guarantee the accuracy or credibility of the information posted by the User or any entities.<br>
+                 ⑧ The Service shall not be responsible for any psychological damages caused by another user. <br>
+                 ⑨ The Service is not obligated to intervene in any disputes between the User and a third party and shall not be responsible for any resulting damages or losses.<br>
+                 ⑩ The Service shall not be responsible for any content of another website's information posted on the Service. <br>
+                 ⑪ The Promotion Institute shall be responsible for any violation of the Personal Information Protection Act unless proven otherwise.<br><br> 
+                <b>Article 25. (Jurisdiction) </b><br> The laws of Korea shall apply with respect to any dispute arising from the Service between the Service and the User or between the Users. The arbitration shall be submitted to the exclusive jurisdiction of a court in Korea.<br> <br> 
+                
+                <b>Article 26. (Assignment) </b><br> Members shall not transfer or assign the right to use the Service or the titles under the service agreement to a third party.<br><br>  
+                <b>Article 27. (Miscellaneous) </b><br> ① Any forms and appendix attached here shall constitute an integral part of the Terms of Use.<br> 
+                 ② Any matters not specified or differences in construction shall be resolved in accordance with the accepted commercial practices.<br> 
+                 ③ Any dispute not settled under the above provisions shall be settled by the court of the Promotion Institute's address. <br> <br>
+                
+                <center><font size="3"><b>Supplementary Provisions</b></font></center>	 <br>
+                <b>Article 1. (Date of Effect)</b> The Terms of Use shall be effective on July 30, 2015.<br><br> 
+                <b>Article 2. (Interim Measures) </b> The User who used the Service prior to the Date of Effect shall be deemed to have joined the Service.  <br><br>			
+                
+                <p>
+                    <a href="/include/en/before_terms.jsp">▶ Click here to view the previous version of our Terms of Use.(April 15, 2013 ~ July 30, 2015)</a><br>
+                </p>
+                            
             </div>
         </div>
 </body>

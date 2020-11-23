@@ -51,3 +51,5 @@ Route::get('/as_admin/inquiry/ey_board_view', 'Back@ey_board_view');
 
 Route::get('/as_admin/main_set', 'Back@main_set');
 Route::post('/as_admin/change_main_set', 'Back@change_main_set');
+
+Route::post('/as_admin/delete', 'Back@del_data');

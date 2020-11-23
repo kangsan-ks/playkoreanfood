@@ -5,10 +5,10 @@
             <div class="view_video_pp">
                 <div class="layer_close_btn_pop" style=" display: block;"><img src="/img/close_img.png" alt="" style="cursor: pointer; margin-left: auto; display: block;"></div>
                 <iframe src="" frameborder="0"></iframe>
-                <video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/125907061_823123071582468_5291045809044312009_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=_TzmIshSaHUAX9OfaDX&amp;tp=18&amp;oh=07b846bb0a15545558876b35c3ccd95f&amp;oe=5FB62C0A" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/125381615_1058863817893147_954944793821805821_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=107&amp;_nc_ohc=4OOtttaPP58AX-WIoBD&amp;oe=5FB5FF5D&amp;oh=1db0db82153355be69663dc992deb34a" controls></video>
-                <video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/125907061_823123071582468_5291045809044312009_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=_TzmIshSaHUAX9OfaDX&amp;tp=18&amp;oh=07b846bb0a15545558876b35c3ccd95f&amp;oe=5FB62C0A" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/125381615_1058863817893147_954944793821805821_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=107&amp;_nc_ohc=4OOtttaPP58AX-WIoBD&amp;oe=5FB5FF5D&amp;oh=1db0db82153355be69663dc992deb34a" controls></video>
-                <video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/125907061_823123071582468_5291045809044312009_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=_TzmIshSaHUAX9OfaDX&amp;tp=18&amp;oh=07b846bb0a15545558876b35c3ccd95f&amp;oe=5FB62C0A" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/125381615_1058863817893147_954944793821805821_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=107&amp;_nc_ohc=4OOtttaPP58AX-WIoBD&amp;oe=5FB5FF5D&amp;oh=1db0db82153355be69663dc992deb34a" controls></video>
-                <video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/125907061_823123071582468_5291045809044312009_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=_TzmIshSaHUAX9OfaDX&amp;tp=18&amp;oh=07b846bb0a15545558876b35c3ccd95f&amp;oe=5FB62C0A" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/125381615_1058863817893147_954944793821805821_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=107&amp;_nc_ohc=4OOtttaPP58AX-WIoBD&amp;oe=5FB5FF5D&amp;oh=1db0db82153355be69663dc992deb34a" controls></video>
+                <video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/122536541_174165190979488_5624072345416390543_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=nRvos2JiW-IAX_DMk1Y&amp;tp=1&amp;oh=82aadc1279863bd9403705655b1a5844&amp;oe=5FB9C8E7" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/122699942_3558506504170670_448473689880501716_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=102&amp;_nc_ohc=0DEabLM5M40AX-1ZSUr&amp;oe=5FB9B9F6&amp;oh=7bcad2177e5001a72d4d8494fdb3cbaf"></video>
+				<video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/122536541_174165190979488_5624072345416390543_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=nRvos2JiW-IAX_DMk1Y&amp;tp=1&amp;oh=82aadc1279863bd9403705655b1a5844&amp;oe=5FB9C8E7" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/122699942_3558506504170670_448473689880501716_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=102&amp;_nc_ohc=0DEabLM5M40AX-1ZSUr&amp;oe=5FB9B9F6&amp;oh=7bcad2177e5001a72d4d8494fdb3cbaf"></video>
+				<video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/122536541_174165190979488_5624072345416390543_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=nRvos2JiW-IAX_DMk1Y&amp;tp=1&amp;oh=82aadc1279863bd9403705655b1a5844&amp;oe=5FB9C8E7" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/122699942_3558506504170670_448473689880501716_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=102&amp;_nc_ohc=0DEabLM5M40AX-1ZSUr&amp;oe=5FB9B9F6&amp;oh=7bcad2177e5001a72d4d8494fdb3cbaf"></video>
+				<video class="tWeCl" playsinline="" poster="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/122536541_174165190979488_5624072345416390543_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=nRvos2JiW-IAX_DMk1Y&amp;tp=1&amp;oh=82aadc1279863bd9403705655b1a5844&amp;oe=5FB9C8E7" preload="none" type="video/mp4" src="https://scontent-ssn1-1.cdninstagram.com/v/t50.2886-16/122699942_3558506504170670_448473689880501716_n.mp4?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=102&amp;_nc_ohc=0DEabLM5M40AX-1ZSUr&amp;oe=5FB9B9F6&amp;oh=7bcad2177e5001a72d4d8494fdb3cbaf"></video>
             </div>
         </div>
         <div class="title_box">
@@ -22,7 +22,7 @@
             <div class="middle_box">
                 <div class="youtube_box">
                     <img class="mb_10" src="/img/en/pop04_img04.png" alt="youtube">
-                    <img class="youtube_view" src="/img/en/pop04_img06.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link6 }}">
+                    <img class="youtube_view" src="/img/en/pop04_img06.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link5 }}">
                 </div>
                 <div class="insta_box">
                     <img class="mb_10" src="/img/en/pop04_img05.png" alt="instagram">
@@ -56,7 +56,8 @@ $(function(){
 
     $('.insta_view').click(function(){
         var idx = $(this).index();
-        console.log(idx);
+        
+        $('.view_video_pp video').hide();
         $('.view_video_box').show();
         $('.view_video_pp').show();
         $('.view_video_pp video').eq(idx).show();
@@ -65,7 +66,8 @@ $(function(){
 
     $('.insta_view2').click(function(){
         var idx = $(this).index();
-        console.log(idx);
+        
+        $('.view_video_pp video').hide();
         $('.view_video_box').show();
         $('.view_video_pp').show();
         $('.view_video_pp video').eq(idx+2).show();
@@ -77,12 +79,13 @@ $(function(){
         $('.view_video_pp').children('iframe').remove();
         
         var url = $(this).attr("data-video-id");
-        console.log(url);
+
         url = url.replace(/watch\?v=/gi, "embed/");
         url = url.replace(/url/gi, "src");
-        console.log(url);
+
         var append_item = '<iframe src="'+url+'" frameborder="0"></iframe>';
         $('.view_video_pp').append(append_item);
+		$('.view_video_pp').show();
         $('.view_video_box').show();
         $('.view_video_pp iframe').show();
         // $('#iframe_bg').show();
@@ -102,7 +105,7 @@ $(function(){
 
     function pi_height2(){
         var i_width = $('.view_video_pp video').width();
-        $('.view_video_pp iframe').height(i_width * 0.5625);
+        $('.view_video_pp video').height(i_width * 1);
     }
 
     $('.layer_close_btn_pop').click(function(){

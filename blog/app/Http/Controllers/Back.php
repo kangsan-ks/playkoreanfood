@@ -89,6 +89,17 @@ class Back extends Controller
 
 		echo "<script>alert('수정됐습니다.');location.href='/as_admin/main_set';</script>";
 		exit;
+    }
+    
+    public function del_data(Request $request) {
+
+        $board_ = $request->board;
+        DB::table('board')
+        ->where('idx', $request->idx)
+        ->delete();
+
+		echo "<script>alert('수정됐습니다.');location.href='/as_admin/main_set';</script>";
+		exit;
 	}
 
 	public function ey_board_view(Request $request) {

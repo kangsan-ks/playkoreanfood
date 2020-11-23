@@ -94,13 +94,13 @@
                     <div class="table_box">
                         <div>
                             <div class="top">
-                                <p><b>Application period</b><br/>(November 30-December 6)</p>
+                                <p><b style="word-break: keep-all;">Application period</b><br/>(November 30-December 6)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <b>(1st step)</b> Upload your video on your SNS channel within the application period (November 30-December 6).<br/><br/>
+                                    <b>(1st step)</b> Upload your video on your SNS channel<br/>(<img src="/img/sns_img.png" alt=""  class="sns_logo_img" />)<br/> within the application period (November 30-December 6).<br/><br/>
                                     
-                                    <b>(2nd step)</b> Click “Submit a Video” on the contest website (www.playkoreanfood.com). <br/>
+                                    <b>(2nd step)</b> Click “Submit a Video” on the contest website (www. playkoreanfood. com). <br/>
                                     *Enter your personal data and video URL for submission. <br/>
                                     *The application shall be complete after finishing both steps.
                                 </p>
@@ -108,17 +108,17 @@
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>“Views” and “likes” checking period</b><br/>(14:00, November 30-December 14)</p>
+                                <p><b>“Views” and “likes” checking period</b><br/>(14:00, November 30-<br/>December 14)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">The number of “views” and “likes” for videos uploaded on applicants’ SNS channels within the application period (November 30-December 6) are checked.</span>
+                                    <span class="dot">The number of “views” and “likes” for videos uploaded on applicants’ SNS channels<br/>(<img src="/img/sns_img.png" alt=""  class="sns_logo_img" />)<br/>within the application period (November 30-December 6) are checked.</span>
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>First screening</b>(14:00, December 14)<br/>/ <b>Second screening</b>(December 16)</p>
+                                <p><b>First screening</b><br/>(14:00, December 14)<br/>/ <b>Second screening</b>(December 16)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
@@ -256,7 +256,7 @@
                         </div>
                     </div>
                     <div class="list_text_box">
-                        <p>※ The number of winning entries and prize types may be adjusted based on the quality and number of entries submitted.</p>
+                        <p>※ The award and the number of award winners may be adjusted depending on the level of work and the number of submitted works. In addition, if there is no eligible person, the award may not be awarded to the relevaant category.</p>
                     </div>
                 </li>
                 <li>
@@ -274,11 +274,11 @@
                     <div class="list_text_box">
                         <p class="mo_none">
                             <span style="font-weight: 500;">#Play Korean Food Secretariat</span><br/>
-                            · Telephone: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Email : manager@doitco.com
+                            · Telephone: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Email : hansik@doitco.com
                         </p>
                         <p class="mo_block">
                             <span style="font-weight: 500;">#Play Korean Food Secretariat</span><br/>
-                            · Telephone: +82-2-749-9979<br/>· Email : manager@doitco.com
+                            · Telephone: +82-2-749-9979<br/>· Email : hansik@doitco.com
                         </p>
                     </div>
                 </li>

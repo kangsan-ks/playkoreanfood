@@ -8,22 +8,53 @@
     </head>
     <body>
         <div class="content-box">
-            <h2 class="category-title"><i class="ico"></i> 저작권정책</h2>
+            <h2 class="category-title"><i class="ico"></i> Copyright Policy</h2>
             <div class="simple-line-text">
                 <div class="asset">
-                    <p><strong>한식 세계화 홈페이지에서 제공하는 모든 자료는 저작권법에 의하여 보호받는 저작물로서, 별도의 저작권 표시 또는 출처를 명시한 경우를 제외하고는 원칙적으로 한식진흥원에 저작권이 있으며, 이를 무단 복제, 배포하는 경우에는 저작권법 제 97조 5조에 의한 저작재산권 침해죄에 해당함을 유념하시기 바랍니다.</strong>
+                    <p><strong>Any information provided by the Globalization of Korean Food homepage is  protected under the Copyright Act. If there are no references or sources of origins, the Korean Food Promotion Institute has the copyright of the information.  The duplication and distribution, without consent, of the information is prohibited under the Copyright Act, article 97, clause 5.</strong>
                     </p>
                 </div>
-                <div class="asset">
-                    <p>한식 세계화 홈페이지에서 제공하는 자료로 수익을 얻거나 이에 상응하는 혜택을 누리고자 하는 경우에는 한식진흥원 과 사전에 별도의 협의를 하거나 허락을 얻어야 하며, 협의 또는 허락에 의한 경우에도 출처가 한식진흥원임을 반드시 명시해야 합니다.</p>
+                <div dir="auto">
+                    <p style="margin: 0px 0px 22px; padding: 0px; font-family: dotum, 돋움, arial, sans-serif; letter-spacing: -0.05em; color: rgb(102, 102, 102); font-size: 12px;">
+                        Anyone who wishes to gain profits by using the information provided by the Globalization of Korean Food homepage must negotiate, beforehand, with the Korean Food Promotion Institute. Also, the Korean Food Promotion Institute must be
+                        listed as the source of origin even if the Korean Food Promotion Institute allows for gains in profit.
+                    </p>
+                    <p style="margin: 0px 0px 22px; padding: 0px; font-family: dotum, 돋움, arial, sans-serif; letter-spacing: -0.05em; color: rgb(102, 102, 102); font-size: 12px;">
+                        Posting contents of the Globalization of Korean Food homepage on to another site is allowed, however, only simple mistakes can be edited and the content of the post must not be plagiarized. This act can receive criminal penalties.
+                        <br style="margin: 0px; padding: 0px;" />
+                        Also, if there is a link to the Globalization of Korean Food homepage, in another internet site, this must be notified to the Korean Food Promotion Institute.<br style="margin: 0px; padding: 0px;" />
+                        If there are questions regarding the policy above, please contact the manager of the Globalization of Korean Food homepage.
+                    </p>
+                    <ul style="margin: 0px; padding: 11px 0px; list-style: none; color: rgb(102, 102, 102); font-family: dotum, helvetica, sans-serif; font-size: 12px;">
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: inline-block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">Telephone</strong>02) 6300-2070
+                        </li>
+                        <li style="margin-left: 15px;">&nbsp;</li>
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: inline-block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">Fax</strong>02) 6300-2055
+                        </li>
+                        <li style="margin-left: 15px;">&nbsp;</li>
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: inline-block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">Address</strong>(Postal Code) 06774 Seoul,
+                            Seocho-gu, Yangjae-dong 232 aT center room 601 (Promotion Institute) Korean Food Promotion Institute
+                        </li>
+                    </ul>
+                    <ul style="margin: 0px; padding: 11px 0px; list-style: none; color: rgb(102, 102, 102); font-family: dotum, helvetica, sans-serif; font-size: 12px;">
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">YouTube Address</strong>
+                            <a href="http://www.youtube.com/koreahansik" target="new">http://www.youtube.com/koreahansik</a>
+                        </li>
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">Twitter Address</strong>
+                            <a href="http://twitter.com/#!/hansikkorea" target="new">http://twitter.com/#!/hansikkorea</a>
+                        </li>
+                        <li style="margin: 0px;padding: 0px 20px 0px 10px;background-image: initial;background-position: 0% 7px;background-size: initial;background-repeat: no-repeat;background-origin: initial;background-clip: initial;display: block;">
+                            <strong style="margin: 0px 7px 0px 0px; padding: 0px 7px 0px 0px; font-family: nanumgothic, malgungothic, dotum, 돋움, arial, sans-serif; border-right: 1px solid rgb(191, 191, 191);">Facebook Address</strong>
+                            <a href="http://ww.facebook.com/hansikkorea" target="new">http://ww.facebook.com/hansikkorea</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="asset">
-                    <p>한식 세계화 홈페이지의 컨텐츠를 적법한 절차에 따라 다른 인터넷 사이트에 게재하는 경우에도 단순한 오류 정정 이외에 내용의 무단 변경을 금지하여, 이를 위반할 때에는 형사 처벌을 받을 수 있습니다.</p>
-                </div>
-                <div class="asset">
-                    <p>또한 다른 인터넷 사이트에서 한식 세계화 홈페이지로 링크하는 경우에도 링크사실을 한식진흥원에 반드시 통지하여야 합니다. <br>
-                    위와 관련된 사항에 대한 보다 자세한 문의는 한식 세계화 홈페이지 관리자에게 해 주십시오.</p>
-                </div>
+                
             </div>
         </div>
     </body>

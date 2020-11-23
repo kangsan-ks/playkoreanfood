@@ -9,7 +9,7 @@
                 <h3><Privacy Policy></h3>
                 <p>1. Purpose of collection and use of personal data: To screen entries and select winners<br/><br/></p>
                 <p>2. Personal data items collected</p>
-                <p class="pad25">※ Required items: Name, contact information (telephone number and mobile phone number), date of birth, email, and address of residence<br/><br/></p>
+                <p class="pad25">※  items: Name, contact information (telephone number and mobile phone number), date of birth, email, and address of residence<br/><br/></p>
                 <p>3. Period of retention and use of personal data</p>
                 <p class="pad25">
                     <span class="dot">Period of retention and use: From the submission of personal data to the end of the contest<br/></span>
@@ -43,7 +43,7 @@
                     <p class="pad30 han han9">The cash prize shall be provided after deducting 3.3% in tax based on the regulations set forth by the Korean government.</p>
                     <p class="pad30 han han10">For winners from overseas, personal data shall be collected using email pursuant to Korean laws and regulations.<br/>(Taxes and public charges shall be paid by the Korean Food Promotion Institute.)</p>
                     <p class="pad30 han han11">he entry shall have no legal issue concerning copyrights (music, video images, photos, fonts, etc.), portrait rights, trademark rights, etc., and the contestant shall be held liable for any disputes in relation to such rights.</p>
-                    <p class="pad30 han han12">If personal data required for the payment of the cash prize is not provided or the selected winner remains out of contact after being selected as a winner, the selection shall be cancelled and the cash prize shall not be paid. </p>
+                    <p class="pad30 han han12">If personal data  for the payment of the cash prize is not provided or the selected winner remains out of contact after being selected as a winner, the selection shall be cancelled and the cash prize shall not be paid. </p>
                     <p class="pad30 han han13">If a team is selected as a winner, the organizer shall not be liable for any matter other than the delivery of the cash prize to the team representative. The team representative shall submit the entry with the consent of all other team members, and all legal and moral issues that may arise in relation to entry submission shall be assumed by the team representative.  </p>
                     <p>
                         <br/>
@@ -62,7 +62,7 @@
 </div>
 <div class="con_bg con_bg3">
     <div class="layer_close_btn"><img src="/img/close_img.png" alt=""></div>
-    <form action="/comment_action" method="POST">
+    <form action="/comment_action" method="POST" name="fr3" onsubmit="return fun3();">
         {{ csrf_field() }}
         <input type="hidden" name="lang" value="en">
         <input type="hidden" name="board_type" value="contest">
@@ -78,25 +78,25 @@
                 <div class="middle_box">
                     <div class="line_">
                         <p class="num01">Title</p>
-                        <input type="text" name="subject">
+                        <input type="text" name="subject" >
                     </div>
                     <div class="line_">
                         <p class="num02">Description of the video, including the summary and</p>
-                        <textarea name="contents" style="resize: none"></textarea>
+                        <textarea name="contents" style="resize: none" ></textarea>
                     </div>
                     <div class="line_">
                         <p class="num03">Video URL</p>
-                        <input type="text" name="link_value">
+                        <input type="text" name="link_value" >
                         <span class="org small">* The video URL refers to the web address of the video uploaded on your personal SNS channel (make sure to open it to the public).</span>
                     </div>
                     <div class="line_">
                         <p class="num04">Application category</p>
-                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)"><label for="type_1_1">Video of Cooking with Kimchi</label>
+                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)" ><label for="type_1_1">Video of Cooking with Kimchi</label>
                         <input type="radio" name="type_1" id="type_1_2" value="한식 주제의 요리 영상 (먹방)"><label for="type_1_2">Video of Hansik Mukbang</label>
                     </div>
                     <div class="line_">
                         <p class="num05">Application channel</p>
-                        <input type="radio" name="type_2" id="type_2_1" value="유튜브"><label for="type_2_1">YouTube</label>
+                        <input type="radio" name="type_2" id="type_2_1" value="유튜브" ><label for="type_2_1">YouTube</label>
                         <input type="radio" name="type_2" id="type_2_2" value="인스타그램"><label for="type_2_2">Instagram</label>
                     </div>
                     <div class="img_box_ra">
@@ -110,27 +110,27 @@
                 <div class="middle_box">
                     <div class="line_">
                         <p class="wd_more num01">Name</p>
-                        <input type="text" name="writer">
+                        <input type="text" name="writer" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num02">Nationality</p>
-                        <input type="text" name="country">
+                        <input type="text" name="country" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num03 mo_none">Contact information<br/><span class="small" style="padding-left: 0;">(mobile phone number)</span></p>
                         <p class="wd_more num03 mo_block">Contact information <span class="small" style="padding-left: 0;">(mobile phone number)</span></p>
                         <div>
-                            <input type="text" name="tel">
+                            <input type="text" name="tel" >
                             <span class="org small" style="padding-left: 0;">* The applicant is liable for any issues that may arise due to the submission of inaccurate or false contact information.</span>
                         </div>
                     </div>
                     <div class="line_">
                         <p class="wd_more num04">Email</p>
-                        <input type="text" name="email">
+                        <input type="text" name="email" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num05">Application unit</p>
-                        <input type="radio" name="type_3" id="type_3_1" value="개인"><label for="type_3_1">Solo</label>
+                        <input type="radio" name="type_3" id="type_3_1" value="개인" ><label for="type_3_1">Solo</label>
                         <input type="radio" name="type_3" id="type_3_2" value="팀"><label for="type_3_2">Team</label>
                     </div>
                 </div>
@@ -142,3 +142,69 @@
         </div>
     </form>
 </div>
+
+<script type="text/javascript">
+    function fun3() {
+        var obj = document.fr3;
+        
+        if(obj.type_3.value == '') {
+            alert('Select Application unit.');
+            obj.type_3[0].focus();
+            return false;
+        }
+
+        if(obj.type_1.value == '') {
+            alert('Select Application category.');
+            obj.type_1[0].focus();
+            return false;
+        }
+
+        if(obj.type_2.value == '') {
+            alert('Select Application channel.');
+            obj.type_2[0].focus();
+            return false;
+        }
+
+        if(obj.subject.value == '') {
+            alert('Enter your Title');
+            obj.subject.focus();
+            return false;
+        }
+
+        if(obj.contents.value == '') {
+            alert('Enter your Description of the video, including the summary and');
+            obj.contents.focus();
+            return false;
+        }
+
+        if(obj.link_value.value == '') {
+            alert('Enter your Video URL');
+            obj.link_value.focus();
+            return false;
+        }
+
+        if(obj.writer.value == '') {
+            alert('Enter your writer');
+            obj.writer.focus();
+            return false;
+        }
+
+        if(obj.tel.value == '') {
+            alert('Enter your Contact information');
+            obj.tel.focus();
+            return false;
+        }
+
+        if(obj.country.value == '') {
+            alert('Enter your Nationality');
+            obj.country.focus();
+            return false;
+        }
+
+        if(obj.email.value == '') {
+            alert('Enter your email');
+            obj.email.focus();
+            return false;
+        }
+    }
+</script>

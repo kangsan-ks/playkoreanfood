@@ -19,6 +19,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/sweetalert.js"></script>
+    {{-- <script src="/js/functions.js"></script>
+    <script src="/js/grayscale.js"></script> --}}
     <script src="/js/index.js"></script>
 </head>
 <body>
@@ -26,28 +28,29 @@
         <div class="form_outer">
             <div class="inquiry_box">
                 <div class="layer1 layer">
-                    <div class="layer_close_btn2"><img src="/img/close_img.png" alt="" class="color_black"></div>
+                    <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
                     <h2>참가신청 확인</h2>
-                    <form action="check_apply" method="POST">
+                    <form action="check_apply" method="POST" name="fr1" onsubmit="return fun1();">
                         {{ csrf_field() }}
+						<input type="hidden" value="{{$lang}}" name="lang">
                         <div class="form_line">
                             <p>응모 단위</p>
                             <div>
-                                <label><input type="radio" name="type_3" value="개인">개인</label>
+                                <label><input type="radio" name="type_3" value="개인" >개인</label>
                                 <label><input type="radio" name="type_3" value="팀">팀</label>
                             </div>
                         </div>
                         <div class="form_line">
                             <p>응모 분야</p>
                             <div>
-                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)">김치 주제의 요리 영상 (쿡방)</label>
+                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)" >김치 주제의 요리 영상 (쿡방)</label>
                                 <label class="m_br"><input type="radio" name="type_1" id="type_1_2_new" value="한식 주제의 요리 영상 (먹방)">한식 주제의 먹방 영상 (먹방)</label>
                             </div>
                         </div>
                         <div class="form_line">
                             <p>제출자 이름</p>
                             <label>
-                                <input type="text" name="writer">
+                                <input type="text" name="writer" >
                                 <br/>
                                 <span>
                                     * 신청하실 때 입력하신 대표자이름을 입력해주시기 바랍니다.
@@ -57,64 +60,49 @@
                         <div class="form_line">
                             <p>제출자 연락처</p>
                             <label>
-                                <input type="text" name="tel">
+                                <input type="text" name="tel" >
                                 <br/>
                                 <span>
-                                    * 신청하실 때 입력하신 이메일을 입력해주시기 바랍니다.
+                                    * 신청하실 때 입력하신 연락처을 입력해주시기 바랍니다.
                                 </span>
                             </label>
                         </div>
                         <div class="submit_box">
-                            <input type="submit" value="참가신청 확인하기">
+                            <input type="submit" value="참가신청 확인하기" >
                         </div>
                     </form>
                 </div>
                 <div class="layer2 layer">
-                    <div class="layer_close_btn2"><img src="/img/close_img.png" alt="" class="color_black"></div>
+                    <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
                     <h2>문의하기</h2>
-                    <form action="/comment_action" method="POST">
+                    <form action="/comment_action" method="POST" name="fr2" onsubmit="return fun2();">
                         {{ csrf_field() }}
-                        <input type="hidden" name="lang" value="kr">
+                        <input type="hidden" name="lang" value="{{$lang}}">
                         <input type="hidden" name="board_type" value="inquiry">
                         <div class="form_line">
                             <p>이름</p>
                             <label>
-                                <input type="text" name="writer">
+                                <input type="text" name="writer" >
                             </label>
                         </div>
                         <div class="form_line">
                             <p>이메일</p>
                             <label>
-                                <input type="text" name="email">
+                                <input type="text" name="email" >
                             </label>
                         </div>
                         <div class="form_line">
                             <p>제목</p>
                             <label>
-                                <input type="text" name="subject">
+                                <input type="text" name="subject" >
                             </label>
                         </div>
                         <div class="form_line">
                             <p>문의 내용</p>
                             <label>
-                                <textarea name="contents"></textarea>
+                                <textarea name="contents" ></textarea>
                             </label>
                         </div>
-                        {{-- <div class="form_line_agree">
-                            <div class="agree_text">
-                                <p class="mo_none">1. 온라인 민원 접수 관련하여 한식진흥원에서 아래와 같이 본인의 개인정보를 수집 및 이용하고자 합니다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;내용을 자세히 읽으신 후 동의 여부를 결정하여 주십시오.<br/><br/></p>
-                                <p class="mo_block">1. 온라인 민원 접수 관련하여 한식진흥원에서 아래와 같이 본인의 개인정보를 수집 및 이용하고자 합니다.<br/>내용을 자세히 읽으신 후 동의 여부를 결정하여 주십시오.<br/><br/></p>
-                                <p>
-                                    <b><u>*개인정보의 수집·이용에 관한 사항</u></b><br/>
-                                    <u>1. 수집·이용 항목 : 이메일<br/></u>
-                                    <u>2. 수집·이용 목적 : 온라인 민원 관리(접수, 답변)<br/></u>
-                                    <u>3. 보유·이용 기간 : 5년 위 사항에 대한 동의를 거부할 수 있으나, 이에 대한 동의가 없을 경우 온라인 민원 서비르 이용이 불가능함을 알려드립니다.</u>
-                                </p>
-                            </div>
-                            <div class="agree_box">
-                                <label><input type="checkbox" name=""> 개인정보 수집에 동의합니다.</label>
-                            </div>
-                        </div> --}}
                         <div class="submit_box">
                             <input type="submit" value="보내기">
                         </div>
@@ -135,10 +123,10 @@
         <div id="header">
             <div class="h_inner">
                 <div class="logo">
-                    <a href="https://www.mafra.go.kr/mafra/index.do">
+                    {{-- <a href="https://www.mafra.go.kr/mafra/index.do">
                         <img class="" src="/img/kr/logo1.png" alt="">
-                    </a>
-                    <a href="https://www.hansik.or.kr/kfpi/kr/main/main.do">
+                    </a> --}}
+                    <a href="https://www.hansik.or.kr/kr/main/main.do">
                         <img class="" src="/img/kr/logo2.png" alt="">
                     </a>                    
                 </div>
@@ -160,8 +148,8 @@
                         <img src="/img/lang_01.png" alt="">
                         한국어
                         <img src="/img/lang_arrow.png" alt="" class="arrow">
-                        <ul>
-                            <li>
+                        <ul style="z-index:10;">
+                            <li onclick="javascript:location.href = '/en';">
                                 <img src="/img/lang_02.png" alt="">
                                 영어
                             </li>
@@ -220,7 +208,7 @@
                         </a>
                     </li>
                     <li class="flex_box">
-                        <a href="#none">
+                        <a href="/en">
                             <img src="/img/lang_02.png" alt="">
                             영어
                         </a>
@@ -312,7 +300,7 @@
                     <a href="https://www.mafra.go.kr/mafra/index.do">
                         <img class="mo_block" src="/img/kr/f_logo01.png" alt="">
                     </a>
-                    <a href="https://www.hansik.or.kr/kfpi/kr/main/main.do">
+                    <a href="https://www.hansik.or.kr/kr/main/main.do">
                         <img class="mo_block" src="/img/kr/f_logo02.png" alt="">
                     </a>
                 </div>
@@ -326,14 +314,71 @@
                     </p>
                 </div>
                 <div class="img_area">
-                    <a href="https://www.hansik.or.kr/kfpi/kr/main/main.do" target="_blank">
-                        <img class="mo_none" src="/img/kr/f_logo02.png" alt="">
+                    <a href="https://www.hansik.or.kr/kr/main/main.do" target="_blank">
+                        <img class="mo_none small_img" src="/img/kr/f_logo02.png" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <script type="text/javascript">
+
+        function fun1() {
+            var obj = document.fr1;
+            
+            if(obj.type_3.value == '') {
+                alert('응모 단위를 입력하세요');
+                obj.type_3[0].focus();
+                return false;
+            }
+
+            if(obj.type_1.value == '') {
+                alert('응모 분야를 입력하세요');
+                obj.type_1[0].focus();
+                return false;
+            }
+
+            if(obj.writer.value == '') {
+                alert('이름을 입력하세요');
+                obj.writer.focus();
+                return false;
+            }
+
+            if(obj.tel.value == '') {
+                alert('연락처를 입력하세요');
+                obj.tel.focus();
+                return false;
+            }
+        }
+
+        function fun2() {
+            var obj = document.fr2;
+            
+            if(obj.writer.value == '') {
+                alert('이름을 입력하세요');
+                obj.writer.focus();
+                return false;
+            }
+
+            if(obj.email.value == '') {
+                alert('이메일을 입력하세요');
+                obj.email.focus();
+                return false;
+            }
+
+            if(obj.subject.value == '') {
+                alert('제목을 입력하세요');
+                obj.subject.focus();
+                return false;
+            }
+
+            if(obj.contents.value == '') {
+                alert('문의 내용을 입력하세요');
+                obj.contents.focus();
+                return false;
+            }
+        }
+        
         $(window).scroll(function(){
 
         });

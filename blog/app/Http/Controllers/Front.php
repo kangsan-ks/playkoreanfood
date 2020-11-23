@@ -30,7 +30,7 @@ class Front extends Controller
 
         $main_data_inform = DB::table('main_data_control') 
                     ->select(DB::raw('*'))
-                    ->where('lang', $lang)
+                    ->where('lang', 'kr')
                     ->first();
                     
 
@@ -83,13 +83,24 @@ class Front extends Controller
                     ->count();
                     echo $apply_all;
 
-        if($apply_all < 1){
-            echo "<script>alert('입력하신 정보가 올바르지 않거나, 등록된 정보가 없습니다.');location.href='/';</script>";
-        }else{
-            echo "<script>alert('정상적으로 접수되었습니다.');location.href='/';</script>";
+        $lang = $request->lang;
+        if($lang == ''){
+            $lang = 'kr';
         }
-        
-        echo $apply_all;
+
+        if($lang == 'kr'){
+            if($apply_all < 1){
+                echo "<script>alert('작성한 정보가 잘못되었거나 등록된 정보가 없습니다.');location.href='/';</script>";
+            }else{
+                echo "<script>alert('정상적으로 접수되었습니다.');location.href='/';</script>";
+            }
+        }else{
+            if($apply_all < 1){
+                echo "<script>alert('The information you created is incorrect or there is no registered information.');location.href='/en';</script>";
+            }else{
+                echo "<script>alert('It has been successfully received.');location.href='/en';</script>";
+            }
+        }
     }
 
     public function comment_action(Request $request) {
@@ -97,6 +108,12 @@ class Front extends Controller
         $board_set = DB::table('board') 
             ->select(DB::raw('*'))
             ->get();
+
+        $lang = $request->lang;
+        if($lang == ''){
+            $lang = 'kr';
+        }
+
         if($request->board_type == 'contest'){
             DB::table('board')->insert(
                 [
@@ -117,7 +134,13 @@ class Front extends Controller
                     'reg_date' => \Carbon\Carbon::now(),
                 ]
             );
-            echo "<script>alert('영상 제출이 완료됐습니다.');location.href='/';</script>";
+
+            if($lang == 'kr'){
+                echo "<script>alert('영상 제출이 완료됐습니다.');location.href='/';</script>";
+            }else{
+                echo "<script>alert('Your application has been successfully submitted.');location.href='/en';</script>";
+            }
+            
         }else if($request->board_type == 'inquiry'){
             DB::table('board')->insert(
                 [
@@ -138,7 +161,11 @@ class Front extends Controller
                     'reg_date' => \Carbon\Carbon::now(),
                 ]
             );
-            echo "<script>alert('문의접수 완료됐습니다.');location.href='/';</script>";
+            if($lang == 'kr'){
+                echo "<script>alert('문의접수 완료됐습니다.');location.href='/';</script>";
+            }else{
+                echo "<script>alert('Inquiry reception is complete.');location.href='/en';</script>";
+            }
         }
 	}
 

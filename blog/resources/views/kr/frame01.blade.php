@@ -5,10 +5,16 @@
             <div class="img_title">
                 <img src="/img/kr/pop01_img01.png" alt="소개">
             </div>
-            <p class="title_text">
+            <p class="title_text mo_none">
                 {{-- <span>한식진흥원 <b>#PlayKoreanFood</b> 외국인 대상 한식 영상 공모전</span> --}}
                 전 세계로 뻗어 나가는 한류 속에서 한식에 대한 국내외 관심이 상승하는 요즘!<br/>
                 다양한 언어권 사람들이 일상 속에서 한식을 요리하고 한식을 함께 먹고 즐기는 모습을<br/>
+                전 세계 사람들과 함께 나누기 위해 한식 영상 공모전 <b>#Play Korean Food</b> 를 개최합니다.
+            </p>
+            <p class="title_text mo_block">
+                {{-- <span>한식진흥원 <b>#PlayKoreanFood</b> 외국인 대상 한식 영상 공모전</span> --}}
+                전 세계로 뻗어 나가는 한류 속에서 한식에 대한 국내외 관심이 상승하는 요즘!
+                다양한 언어권 사람들이 일상 속에서 한식을 요리하고 한식을 함께 먹고 즐기는 모습을
                 전 세계 사람들과 함께 나누기 위해 한식 영상 공모전 <b>#Play Korean Food</b> 를 개최합니다.
             </p>
         </div>
@@ -100,7 +106,7 @@
                                 <p class="small">
                                     <b>(1단계)</b> 접수기간
                                     (11.30~12.6) 내에 
-                                    개인 SNS채널
+                                    개인 SNS채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)
                                     참가영상 업로드<br/><br/>
                                     
                                     <b>(2단계)</b> 공모전 
@@ -123,7 +129,7 @@
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">접수기간(11.30~12.6) 내 개인 sns채널에 업로드를 완료한 영상의 조회수와 좋아요 수치를 집계</span>
+                                    <span class="dot">접수기간(11.30~12.6) 내 개인 sns채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)에 업로드를 완료한 영상의 조회수와 좋아요 수치를 집계</span>
                                 </p>
                             </div>
                         </div>
@@ -135,7 +141,7 @@
                                 <p class="small">
                                     <b>(1차 심사)</b><br/>
                                     <span class="dot">12.14, 14:00<br/></span>
-                                    <span class="dot">응모작 집계기간 중 개인 SNS채널에
+                                    <span class="dot">응모작 집계기간 중 개인 SNS채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)에
                                         올린 영상의 조회수, 좋아요 합계결과로
                                         상위 30개 영상선정<br/></span>
                                     <span class="small2">* 결격사유에 해당하는 경우는 심사제외</span><br/><br/>
@@ -272,7 +278,7 @@
                         </div>
                     </div>
                     <div class="list_text_box">
-                        <p>※ 작품수준, 출품된 작품 수를 고려하여 시상종류 및 수상작 수가 조정될 수 있음</p>
+                        <p>※ 작품수준, 출품된 작품 수를 고려하여 시상종류 및 수상작 수가 조정될 수 있으며, 적격자 없을시에는 관련부분에 시상을 하지 않을 수 있음</p>
                     </div>
                 </li>
                 <li>
@@ -290,11 +296,11 @@
                     <div class="list_text_box">
                         <p class="mo_none">
                             <span style="font-weight: 500;">한식진흥원 공모전 운영사무국</span><br/>
-                            · 연락처: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 이메일 : manager@doitco.com
+                            · 연락처: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 이메일 : hansik@doitco.com
                         </p>
                         <p class="mo_block">
                             <span style="font-weight: 500;">한식진흥원 공모전 운영사무국</span><br/>
-                            · 연락처: +82-2-749-9979<br/>· 이메일 : manager@doitco.com
+                            · 연락처: +82-2-749-9979<br/>· 이메일 : hansik@doitco.com
                         </p>
                     </div>
                 </li>

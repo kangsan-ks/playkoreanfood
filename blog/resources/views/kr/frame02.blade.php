@@ -62,7 +62,7 @@
 </div>
 <div class="con_bg con_bg3">
     <div class="layer_close_btn"><img src="/img/close_img.png" alt=""></div>
-    <form action="/comment_action" method="POST">
+    <form action="/comment_action" method="POST" name="fr3" onsubmit="return fun3();">
         {{ csrf_field() }}
         <input type="hidden" name="lang" value="kr">
         <input type="hidden" name="board_type" value="contest">
@@ -78,25 +78,25 @@
                 <div class="middle_box">
                     <div class="line_">
                         <p class="num01">영상제목</p>
-                        <input type="text" name="subject">
+                        <input type="text" name="subject" >
                     </div>
                     <div class="line_">
                         <p class="num02">기획의도 작품내용 등 설명</p>
-                        <textarea name="contents" style="resize: none"></textarea>
+                        <textarea name="contents" style="resize: none" ></textarea>
                     </div>
                     <div class="line_">
                         <p class="num03">참가영상 URL</p>
-                        <input type="text" name="link_value">
+                        <input type="text" name="link_value" >
                         <span class="org small">* 참가영상URL은 개인 SNS채널에 업로드한 영상(공개 필수)의 주소를 의미합니다.</span>
                     </div>
                     <div class="line_">
                         <p class="num04">응모 분야</p>
-                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)"><label for="type_1_1">김치 주제의 요리 영상 (쿡방)</label>
-                        <input type="radio" name="type_1" id="type_1_2" value="한식 주제의 요리 영상 (먹방)"><label for="type_1_2">한식 주제의 먹방 영상 (먹방)</label>
+                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)" ><label for="type_1_1">김치 주제의 요리 영상 (쿡방)</label>
+                        <input type="radio" name="type_1" id="type_1_2" value="한식 주제의 요리 영상 (먹방)" ><label for="type_1_2">한식 주제의 먹방 영상 (먹방)</label>
                     </div>
                     <div class="line_">
                         <p class="num05">응모 채널</p>
-                        <input type="radio" name="type_2" id="type_2_1" value="유튜브"><label for="type_2_1">유튜브</label>
+                        <input type="radio" name="type_2" id="type_2_1" value="유튜브" ><label for="type_2_1">유튜브</label>
                         <input type="radio" name="type_2" id="type_2_2" value="인스타그램"><label for="type_2_2">인스타그램</label>
                     </div>
                     <div class="img_box_ra">
@@ -109,25 +109,25 @@
                 <div class="middle_box">
                     <div class="line_">
                         <p class="wd_more num01">제출자 이름</p>
-                        <input type="text" name="writer">
+                        <input type="text" name="writer" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num02">제출자 국적</p>
-                        <input type="text" name="country">
+                        <input type="text" name="country" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num03 mo_none">제출자 연락처<br/><span class="small" style="padding-left: 0;">(휴대전화)</span></p>
                         <p class="wd_more num03 mo_block">제출자 연락처 <span class="small" style="padding-left: 0;">(휴대전화)</span></p>
-                        <input type="text" name="tel">
+                        <input type="text" name="tel" >
                         <span class="org small">* 연락이 가능하지 않은 연락처를 기재해 문제가 발생할 시, 그 책임은 참가자에게 있습니다.</span>
                     </div>
                     <div class="line_">
                         <p class="wd_more num04">제출자 이메일</p>
-                        <input type="text" name="email">
+                        <input type="text" name="email" >
                     </div>
                     <div class="line_">
                         <p class="wd_more num05">응모 단위</p>
-                        <input type="radio" name="type_3" id="type_3_1" value="개인"><label for="type_3_1">개인</label>
+                        <input type="radio" name="type_3" id="type_3_1" value="개인" ><label for="type_3_1">개인</label>
                         <input type="radio" name="type_3" id="type_3_2" value="팀"><label for="type_3_2">팀</label>
                     </div>
                 </div>
@@ -139,3 +139,68 @@
         </div>
     </form>
 </div>
+<script type="text/javascript">
+    function fun3() {
+        var obj = document.fr3;
+        
+        if(obj.type_3.value == '') {
+            alert('응모 단위를 선택하세요');
+            obj.type_3[0].focus();
+            return false;
+        }
+
+        if(obj.type_1.value == '') {
+            alert('응모 분야를 선택하세요');
+            obj.type_1[0].focus();
+            return false;
+        }
+
+        if(obj.type_2.value == '') {
+            alert('응모 채널 선택하세요');
+            obj.type_2[0].focus();
+            return false;
+        }
+
+        if(obj.subject.value == '') {
+            alert('영상제목을 입력하세요');
+            obj.subject.focus();
+            return false;
+        }
+
+        if(obj.contents.value == '') {
+            alert('기획의도 작품내용 등 설명을 입력하세요');
+            obj.contents.focus();
+            return false;
+        }
+
+        if(obj.link_value.value == '') {
+            alert('참가영상 URL을 입력하세요');
+            obj.link_value.focus();
+            return false;
+        }
+
+        if(obj.writer.value == '') {
+            alert('이름을 입력하세요');
+            obj.writer.focus();
+            return false;
+        }
+
+        if(obj.tel.value == '') {
+            alert('연락처를 입력하세요');
+            obj.tel.focus();
+            return false;
+        }
+
+        if(obj.country.value == '') {
+            alert('국적을 입력하세요');
+            obj.country.focus();
+            return false;
+        }
+
+        if(obj.email.value == '') {
+            alert('이메일을 입력하세요');
+            obj.email.focus();
+            return false;
+        }
+    }
+</script>

@@ -153,23 +153,23 @@
                                 <img src="/img/lang_02.png" alt="">
                                 영어
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/zh';">
                                 <img src="/img/lang_03.png" alt="">
                                 중국어
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/fe';">
                                 <img src="/img/lang_04.png" alt="">
                                 프랑스어
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/ja';">
                                 <img src="/img/lang_05.png" alt="">
                                 일본어
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/es';">
                                 <img src="/img/lang_06.png" alt="">
                                 스페인어
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/vi';">
                                 <img src="/img/lang_07.png" alt="">
                                 베트남어
                             </li>
@@ -212,23 +212,23 @@
                             <img src="/img/lang_02.png" alt="">
                             영어
                         </a>
-                        <a href="#none">
+                        <a href="/zh">
                             <img src="/img/lang_03.png" alt="">
                             중국어
                         </a>
-                        <a href="#none">
+                        <a href="/fe">
                             <img src="/img/lang_04.png" alt="">
                             프랑스어
                         </a>
-                        <a href="#none">
+                        <a href="/ja">
                             <img src="/img/lang_05.png" alt="">
                             일본어
                         </a>
-                        <a href="#none">
+                        <a href="/es">
                             <img src="/img/lang_06.png" alt="">
                             스페인어
                         </a>
-                        <a href="#none">
+                        <a href="/vi">
                             <img src="/img/lang_07.png" alt="">
                             베트남어
                         </a>

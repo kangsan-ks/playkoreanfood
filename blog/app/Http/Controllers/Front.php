@@ -94,11 +94,23 @@ class Front extends Controller
             }else{
                 echo "<script>alert('정상적으로 접수되었습니다.');location.href='/';</script>";
             }
-        }else{
+        }elseif($lang == 'zh'){
+            if($apply_all < 1){
+                echo "<script>alert('您创建的信息不正确或没有注册信息。');location.href='/zh';</script>";
+            }else{
+                echo "<script>alert('已成功收到。');location.href='/zh';</script>";
+            }
+        }elseif($lang == 'en'){
             if($apply_all < 1){
                 echo "<script>alert('The information you created is incorrect or there is no registered information.');location.href='/en';</script>";
             }else{
                 echo "<script>alert('It has been successfully received.');location.href='/en';</script>";
+            }
+        }elseif($lang == 'fe'){
+            if($apply_all < 1){
+                echo "<script>alert('Une erreur est survenue. Veuillez réessayer.');location.href='/fe';</script>";
+            }else{
+                echo "<script>alert('Votre demande a été reçue avec succès.');location.href='/fe';</script>";
             }
         }
     }
@@ -137,8 +149,12 @@ class Front extends Controller
 
             if($lang == 'kr'){
                 echo "<script>alert('영상 제출이 완료됐습니다.');location.href='/';</script>";
-            }else{
+            }elseif($lang == 'zh'){
+                echo "<script>alert('视频提交完成。');location.href='/zh';</script>";
+            }elseif($lang == 'en'){
                 echo "<script>alert('Your application has been successfully submitted.');location.href='/en';</script>";
+            }elseif($lang == 'fe'){
+                echo "<script>alert('La soumission de la vidéo est terminée.');location.href='/fe';</script>";
             }
             
         }else if($request->board_type == 'inquiry'){
@@ -163,8 +179,12 @@ class Front extends Controller
             );
             if($lang == 'kr'){
                 echo "<script>alert('문의접수 완료됐습니다.');location.href='/';</script>";
-            }else{
+            }elseif($lang == 'zh'){
+                echo "<script>alert('您的询问已经收到。');location.href='/zh';</script>";
+            }elseif($lang == 'en'){
                 echo "<script>alert('Inquiry reception is complete.');location.href='/en';</script>";
+            }elseif($lang == 'fe'){
+                echo "<script>alert('Votre demande a été reçue.');location.href='/fe';</script>";
             }
         }
 	}

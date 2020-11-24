@@ -38,13 +38,13 @@
             <div class="middle_box">
                 <div class="youtube_box">
                     <img class="mb_10" src="/img/en/pop04_img04.png" alt="youtube">
-                    <img class="youtube_view" src="/img/en/pop04_img06.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link6 }}">
+                    <img class="youtube_view" src="/img/en/pop04_img11.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link6 }}">
                 </div>
                 <div class="insta_box">
                     <img class="mb_10" src="/img/en/pop04_img05.png" alt="instagram">
                     <div class="flex_box">
-                        <img class="insta_view2" src="/img/en/pop04_img07.png" alt="" style="cursor: pointer;">
-                        <img class="insta_view2" src="/img/en/pop04_img08.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/en/pop04_img09.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/en/pop04_img010.png" alt="" style="cursor: pointer;">
                     </div>
                 </div>
             </div>

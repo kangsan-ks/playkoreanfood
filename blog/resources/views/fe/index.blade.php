@@ -185,26 +185,26 @@
             <div id="m_nav_bg">
                 <ul class="m_nav_list mo_block">
                     <li>
-                        <a href="#none">메인</a>
+                        <a href="#none">Contenu principal</a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop01">
-                            공모전 소개
+                            Présentation du concours
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop04">
-                            공모전 영상
+                            Vidéos du concours
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection2">
-                            문의하기
+                            Pour plus d’informations
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection1">
-                            참가신청 확인
+                            Confirmation de participation
                         </a>
                     </li>
                     <li class="flex_box">

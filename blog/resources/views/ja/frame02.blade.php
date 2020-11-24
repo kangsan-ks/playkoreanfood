@@ -3,60 +3,60 @@
     <div class="content_box">
         <div class="title_box">
             <div class="img_title">
-                <img src="/img/kr/pop02_img01.png" alt="개인정보 수집 동의서">
+                <img src="/img/ja/pop02_img01.png" alt="개인정보 수집 동의서">
             </div>
             <div class="middle_box">
-                <h3><개인정보처리방침></h3>
-                <p>1. 개인정보의 수집·이용 목적: 출품작 심사 및 시상<br/><br/></p>
-                <p>2. 수집하는 개인정보 항목</p>
-                <p class="pad25">※ 필수사항: 성명, 연락처(전화번호, 휴대폰번호), 생년월일, 이메일, 주소<br/><br/></p>
-                <p>3. 개인정보의 보유 및 이용기간</p>
+                <h3><個人情報保護方針></h3>
+                <p>1. 個人情報の収集および利用の目的 : 出品作の審査および授賞<br/><br/></p>
+                <p>2. 収集する個人情報の項目</p>
+                <p class="pad25">※ 必須項目: 氏名、連絡先（電話番号、携帯番号）、生年月日、電子メールアドレス、住所<br/><br/></p>
+                <p>3. 個人情報の保存および利用期間</p>
                 <p class="pad25">
-                    <span class="dot">보유 및 이용 기간: 접수 시부터 공모 종료 시까지<br/></span>
-                    <span class="dot">사유: 서비스 제공 및 제도 개선<br/></span>
-                    <span class="dot">보유 및 이용 기간이 만료되지 않더라도 해당 개인정보 제공자 본인의 요청 또는직접 삭제를 통한<br/>개인정보 제공 중단이 가능합니다.<br/><br/></span></span>
+                    <span class="dot">保存および利用期間 : 受付から公募終了時まで<br/></span>
+                    <span class="dot">目的 : サービスの提供および制度改善<br/></span>
+                    <span class="dot">保存および利用期間が満了していなくても、当該個人情報提供者が要請したり直接削除したりすることで、個人情報の提供を停止することができます。<br/><br/></span></span>
                 </p>
-                <p>4. 이용자 개인정보보호를 위하여 수집된 개인정보는 암호화되어 처리됩니다.</p>
+                <p>4. 個人情報保護のため、収集された個人情報は暗号化されます。</p>
                 <p class="pad25">
-                    ① 이용자는 해당 개인정보 수집 및 이용 동의에 대한 거부 권리가 있습니다.<br/>
-                    ② 단, 개인정보 수집·이용에 대한 동의를 하지 않으실 경우에는 참가를 할 수 없습니다.
+                    ① 応募者は、個人情報の収集および利用への同意を拒否する権利があります。<br/>
+                    ② ただし、個人情報の収集および利用に同意しない場合、公募展には参加できません。
                 </p>
             </div>
             <div class="agree_box">
-                <label><input type="checkbox" name="check1"> 위 개인정보처리방침에 동의합니다.</label>
+                <label><input type="checkbox" name="check1"> 上記の個人情報保護方針に同意します。</label>
             </div>
             <div class="border_dot"></div>
             <div class="img_title">
-                <img src="/img/kr/pop02_img02.png" alt="참가서약서">
+                <img src="/img/ja/pop02_img02.png" alt="참가서약서">
             </div>
             <div class="middle_box">
-                <h3>본인은 한식진흥원에서 주최하는 「2020 외국인 대상 한식 영상 공모전」에 작품을 출품함에 있어 다음 사항을 준수할 것을 서약합니다.</h3>
-                    <p class="pad30 han han1">신청서의 모든 내용은 사실대로 작성하여야 하며, 사실이 아닌 경우 수상 후라도 수상이 취소될 수 있습니다.</p>
-                    <p class="pad30 han han2">시상 일정 및 경품 지급은 수상자에게 개별 공지됩니다.</p>
-                    <p class="pad30 han han3">수상자의 저작권은 제작자에게 귀속 됩니다.</p>
-                    <p class="pad30 han han4">수상작에 한 해 수정, 변경이 가능한 원본 파일을 주최 측의 요청에 따라 제출합니다.</p>
+                <h3>私は、韓食振興院が主催する「2020外国人向け韓食映像公募展」に作品を出品するにあたり、以下の事項を遵守することを誓います。</h3>
+                    <p class="pad30 han han1">申込書のすべての内容は、事実どおりに作成しなければなりません。事実でない場合、受賞が取り消されることがあります。</p>
+                    <p class="pad30 han han2">授賞の日程および景品の支給については受賞者に個別に通知されます。</p>
+                    <p class="pad30 han han3">受賞作の著作権は制作者に帰属します。</p>
+                    <p class="pad30 han han4">受賞した場合、主催者の要請に応じて修正・変更が可能な原本ファイルを提出します。</p>
                     {{-- <p class="pad30 han han5">출품작에 대한 저작권은 응모자에게 있습니다. 다만 주최 측은 입상작에 한하여 필요한 범위 내에서 합당한 보상을 전제로 지적재산권을 우선적으로 양수할 수 있습니다.</p> --}}
-                    <p class="pad30 han han5">출품작에 대한 저작권은 응모자에게 있습니다.</p>
-                    <p class="pad30 han han6">수상작은 농림축산식품부 및 한식진흥원 홈페이지 및 SNS채널 등에 홍보 목적으로 편집 및 게시 할 수 있으며, 향후 공적인 용도로 이용할 수 있습니다. </p>
-                    <p class="pad30 han han7">최종 선정 후에도 국내외에서 이미 수상한 영상일 경우 수상을 취소합니다.</p>
-                    <p class="pad30 han han8">타 공모전의 수상작, 타인의 저작물 도용 등의 경우 심사제외 및 시상내역(시상금)은 환수합니다.</p>
-                    <p class="pad30 han han9">수상 및 시상금은 대한민국 정부의 규정에 근거하여 3.3% 세금 공제 후 지급합니다.</p>
-                    <p class="pad30 han han10">해외수상자의 경우 한국법/규정에 따라 세금보고를 위해 이메일을 사용, 개인정보를 수집합니다.<br/>(세금 및 제세공과금은 한식진흥원 부담)</p>
-                    <p class="pad30 han han11">출품작은 제 3자의 저작권(음원, 영상, 사진, 폰트 등), 초상권, 상표권, 등 일체의 법적 문제가 없어야 하며, 이와 관련된 분쟁은 참자가 본인에게 모든 책임이 있습니다.</p>
-                    <p class="pad30 han han12">시상작 선정 후 시상금 지급에 필요한 개인정보제공 불가, 연락두절 등의 문제가 발생할 시 시상을 취소하고 상금은 지급하지 않습니다. </p>
-                    <p class="pad30 han han13">팀 수상 시, 상금은 대표자 1인에게 전달하며 그 외의 사항에 대하여 주최측은 일절 관여하지 않습니다. 팀 출품의 경우 대표자는 참여자의 모든 동의를 거쳐 합의하에 출품하여야 하며, 이후 발생할 수 있는 법적·도의적 책임은 대표자에게 있습니다. </p>
+                    <p class="pad30 han han5">出品作の著作権は制作者に帰属します。 </p>
+                    <p class="pad30 han han6">受賞作は、農林畜産食品部および韓食振興院のホームぺージやSNSチャンネルなどに広報の目的で掲載されることがあります（編集の可能性あり）。また、今後公的な用途に利用される可能性があります。</p>
+                    <p class="pad30 han han7">国内外の何らかのコンテストで既に受賞した映像である場合、受賞が取り消されます。</p>
+                    <p class="pad30 han han8">他のコンテストの受賞作や、他人の著作物の盗作などであった場合、審査から除外されます。また、受賞後にそれが発覚した場合、賞（賞金）を返還しなければなりません。</p>
+                    <p class="pad30 han han9">賞金は、大韓民国政府の規定に基づいて3.3％の税金が引かれた後に支給されます。</p>
+                    <p class="pad30 han han10">海外の受賞者の場合、韓国の法律/規定に基づき、税務手続きのために電子メールを使用して個人情報を収集します。<br/>（税金および租税公課は韓食振興院が負担。）</p>
+                    <p class="pad30 han han11">出品作は、第三者の著作権（音源、映像、写真、フォントなど）、肖像権、商標権などを侵害するものであってはなりません。これに関連した紛争については、応募者本人がすべての責任を負います。</p>
+                    <p class="pad30 han han12">受賞が決まった後に、賞金の支給に必要な個人情報を提供しなかったり、連絡が取れなかったりなどの問題が発生した場合、受賞が取り消されます。</p>
+                    <p class="pad30 han han13">団体で受賞した場合、賞金は代表者1人に支給され、賞金の分配等について主催者は一切関与しません。代表者はあらかじめ参加者全員の同意を得ておいてください。後に発生する法的・道義的責任は代表者が負うものとします。</p>
                     <p>
                         <br/>
-                        위 사항에 대하여 동의를 거부할 수 있으며, 동의 거부 시에는 공모전 신청 자격이 제한됩니다.<br/>
-                        향후 위의 사항을 준수함은 물론 이의를 제기하지 않을 것을 서약합니다.
+                        上記事項への同意を拒否することもできますが、その場合公募展への参加が制限されます。<br/>
+                        今後、上記の事項を遵守し、異議申し立てを行わないことを誓います。
                     </p>
             </div>
             <div class="agree_box">
-                <label><input type="checkbox" name="check2"> 참가자 서약서를 숙지하고, 이에 동의합니다.</label>
+                <label><input type="checkbox" name="check2"> 参加誓約書の内容を熟知し、これに同意します。</label>
             </div>
         </div>
         <div class="attend_box">
-           <img src="/img/kr/pop02_img03.png" alt="참가 신청하기"> 
+           <img src="/img/ja/pop02_img03.png" alt="참가 신청하기"> 
         </div>
     </div>
 </div>
@@ -69,72 +69,72 @@
         <div class="content_box">
             <div class="title_box">
                 <div class="top_img_box">
-                    <img class="mo_none" src="/img/kr/pop03_img01.png" alt="참가신청서">
-                    <img class="mo_block" src="/img/kr/m_pop03_img01.png" alt="참가신청서">
+                    <img class="mo_none" src="/img/ja/pop03_img01.png" alt="참가신청서">
+                    <img class="mo_block" src="/img/ja/m_pop03_img01.png" alt="참가신청서">
                 </div>
                 <div class="img_title">
-                    <img src="/img/kr/pop03_img02.png" alt="개인정보 수집 동의서">
+                    <img src="/img/ja/pop03_img02.png" alt="개인정보 수집 동의서">
                 </div>
                 <div class="middle_box">
                     <div class="line_">
-                        <p class="num01">영상제목</p>
+                        <p class="num01">タイトル</p>
                         <input type="text" name="subject" >
                     </div>
                     <div class="line_">
-                        <p class="num02">기획의도 작품내용 등 설명</p>
+                        <p class="num02">企画意図、内容などの説明</p>
                         <textarea name="contents" style="resize: none" ></textarea>
                     </div>
                     <div class="line_">
-                        <p class="num03">참가영상 URL</p>
+                        <p class="num03">URL</p>
                         <input type="text" name="link_value" >
-                        <span class="org small">* 참가영상URL은 개인 SNS채널에 업로드한 영상(공개 필수)의 주소를 의미합니다.</span>
+                        <span class="org small">* 個人のSNSチャンネルにアップロードした映像（公開必須）のURLを記入してください。</span>
                     </div>
                     <div class="line_">
-                        <p class="num04">응모 분야</p>
-                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)" ><label for="type_1_1">김치 주제의 요리 영상 (쿡방)</label>
-                        <input type="radio" name="type_1" id="type_1_2" value="한식 주제의 요리 영상 (먹방)" ><label for="type_1_2">한식 주제의 먹방 영상 (먹방)</label>
+                        <p class="num04">応募分野</p>
+                        <input type="radio" name="type_1" id="type_1_1" value="김치 주제의 요리 영상 (쿡방)" ><label for="type_1_1">キムチ料理（キムチを使った料理の映像）</label>
+                        <input type="radio" name="type_1" id="type_1_2" value="한식 주제의 요리 영상 (먹방)" ><label for="type_1_2">韓食モッパン（韓食を食べる映像）</label>
                     </div>
                     <div class="line_">
-                        <p class="num05">응모 채널</p>
-                        <input type="radio" name="type_2" id="type_2_1" value="유튜브" ><label for="type_2_1">유튜브</label>
-                        <input type="radio" name="type_2" id="type_2_2" value="인스타그램"><label for="type_2_2">인스타그램</label>
+                        <p class="num05">応募チャンネル</p>
+                        <input type="radio" name="type_2" id="type_2_1" value="유튜브" ><label for="type_2_1">YouTube</label>
+                        <input type="radio" name="type_2" id="type_2_2" value="인스타그램"><label for="type_2_2">Instagram</label>
                     </div>
                     <div class="img_box_ra">
-                        <img src="/img/kr/pop_bg03_img01.png" alt="">
+                        <img src="/img/ja/pop_bg03_img01.png" alt="">
                     </div>
                 </div>
                 <div class="img_title">
-                    <img src="/img/kr/pop03_img03.png" alt="참가서약서">
+                    <img src="/img/ja/pop03_img03.png" alt="참가서약서">
                 </div>
                 <div class="middle_box">
                     <div class="line_">
-                        <p class="wd_more num01">제출자 이름</p>
+                        <p class="wd_more num01">応募者の氏名</p>
                         <input type="text" name="writer" >
                     </div>
                     <div class="line_">
-                        <p class="wd_more num02">제출자 국적</p>
+                        <p class="wd_more num02">応募者の国籍</p>
                         <input type="text" name="country" >
                     </div>
                     <div class="line_">
-                        <p class="wd_more num03 mo_none">제출자 연락처<br/><span class="small" style="padding-left: 0;">(휴대전화)</span></p>
-                        <p class="wd_more num03 mo_block">제출자 연락처 <span class="small" style="padding-left: 0;">(휴대전화)</span></p>
+                        <p class="wd_more num03 mo_none">応募者の連絡先<br/><span class="small" style="padding-left: 0;">（携帯電話）</span></p>
+                        <p class="wd_more num03 mo_block">応募者の連絡先 <span class="small" style="padding-left: 0;">（携帯電話）</span></p>
                         <input type="text" name="tel" >
-                        <span class="org small">* 연락이 가능하지 않은 연락처를 기재해 문제가 발생할 시, 그 책임은 참가자에게 있습니다.</span>
+                        <span class="org small">* 間違った連絡先を記載して問題が発生した場合、その責任は応募者が負うものとします。</span>
                     </div>
                     <div class="line_">
-                        <p class="wd_more num04">제출자 이메일</p>
+                        <p class="wd_more num04">応募者の電子メールアドレス</p>
                         <input type="text" name="email" >
                     </div>
                     <div class="line_">
-                        <p class="wd_more num05">응모 단위</p>
-                        <input type="radio" name="type_3" id="type_3_1" value="개인" ><label for="type_3_1">개인</label>
-                        <input type="radio" name="type_3" id="type_3_2" value="팀"><label for="type_3_2">팀</label>
+                        <p class="wd_more num05">応募単位</p>
+                        <input type="radio" name="type_3" id="type_3_1" value="개인" ><label for="type_3_1">個人</label>
+                        <input type="radio" name="type_3" id="type_3_2" value="팀"><label for="type_3_2">チーム</label>
                     </div>
                 </div>
             </div>
             <div class="attend_box">
-                <input type="image" src="/img/kr/pop03_img04.png" alt="참가 신청하기">
-                {{-- <img src="/img/kr/pop03_img04.png" alt="참가 신청하기">  --}}
+                <input type="image" src="/img/ja/pop03_img04.png" alt="참가 신청하기">
+                {{-- <img src="/img/ja/pop03_img04.png" alt="참가 신청하기">  --}}
             </div>
         </div>
     </form>
@@ -144,61 +144,61 @@
         var obj = document.fr3;
         
         if(obj.type_3.value == '') {
-            alert('응모 단위를 선택하세요');
+            alert('応募単位を選択してください');
             obj.type_3[0].focus();
             return false;
         }
 
         if(obj.type_1.value == '') {
-            alert('응모 분야를 선택하세요');
+            alert('応募分野を選択してください');
             obj.type_1[0].focus();
             return false;
         }
 
         if(obj.type_2.value == '') {
-            alert('응모 채널 선택하세요');
+            alert('応募チャンネル選択してください');
             obj.type_2[0].focus();
             return false;
         }
 
         if(obj.subject.value == '') {
-            alert('영상제목을 입력하세요');
+            alert('映像のタイトルを入力してください');
             obj.subject.focus();
             return false;
         }
 
         if(obj.contents.value == '') {
-            alert('기획의도 작품내용 등 설명을 입력하세요');
+            alert('企画のも作品内容などの説明を入力してください');
             obj.contents.focus();
             return false;
         }
 
         if(obj.link_value.value == '') {
-            alert('참가영상 URL을 입력하세요');
+            alert('参加映像のURLを入力してください');
             obj.link_value.focus();
             return false;
         }
 
         if(obj.writer.value == '') {
-            alert('이름을 입력하세요');
+            alert('名前を入力してください');
             obj.writer.focus();
             return false;
         }
 
         if(obj.tel.value == '') {
-            alert('연락처를 입력하세요');
+            alert('連絡先を入力してください');
             obj.tel.focus();
             return false;
         }
 
         if(obj.country.value == '') {
-            alert('국적을 입력하세요');
+            alert('国籍を入力してください');
             obj.country.focus();
             return false;
         }
 
         if(obj.email.value == '') {
-            alert('이메일을 입력하세요');
+            alert('メールを入力してください');
             obj.email.focus();
             return false;
         }

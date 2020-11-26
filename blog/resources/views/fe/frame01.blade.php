@@ -100,7 +100,7 @@
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <b>(Etape 1)</b> Mettre en ligne une vidéo sur les réseaux sociaux durant la période d’inscription
+                                    <b>(Etape 1)</b> Mettre en ligne une vidéo sur les réseaux(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)sociaux durant la période d’inscription
                                     (11.30-12.6)<br/><br/>
                                     
                                     <b>(Etape 2)</b> Cliquer sur ‘Soummettre ma vidéo’sur le site Internet (www. playkoreanfood. com)<br/>
@@ -115,7 +115,7 @@
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">Compter le nombre de vues et de likes de la vidéo mise en ligne sur les réseaux sociaux durant la période d’inscription</span>
+                                    <span class="dot">Compter le nombre de vues et de likes de la vidéo mise en ligne sur les réseaux sociaux(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)durant la période d’inscription</span>
                                 </p>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                 <p class="small">
                                     <b>(Premier jury)</b><br/>
                                     <span class="dot">12.14, 14:00<br/></span>
-                                    <span class="dot">Sélectionner les premières 30 vidéos selon les résultats de compte du nombre de vues et de likes de la vidéo mise en ligne sur les réseaux sociaux<br/></span>
+                                    <span class="dot">Sélectionner les premières 30 vidéos selon les résultats de compte du nombre de vues et de likes de la vidéo mise en ligne sur les réseaux sociaux(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)<br/></span>
                                     <span class="small2">* Dans le cas où la vidéo est jugée irrecevable, elle sera exclue de la compétition.</span><br/><br/>
                                     
                                     <b>(Second jury)</b><br/>

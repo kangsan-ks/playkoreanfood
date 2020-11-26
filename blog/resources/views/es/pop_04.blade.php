@@ -8,23 +8,27 @@
     </head>
     <body>
         <div class="content-box">
-            <h2 class="category-title"><i class="ico"></i> 저작권정책</h2>
-            <div class="simple-line-text">
-                <div class="asset">
-                    <p><strong>한식 세계화 홈페이지에서 제공하는 모든 자료는 저작권법에 의하여 보호받는 저작물로서, 별도의 저작권 표시 또는 출처를 명시한 경우를 제외하고는 원칙적으로 한식진흥원에 저작권이 있으며, 이를 무단 복제, 배포하는 경우에는 저작권법 제 97조 5조에 의한 저작재산권 침해죄에 해당함을 유념하시기 바랍니다.</strong>
-                    </p>
+            <h2 class="category-title"><i class="ico"></i> Política de derechos de autor</h2>
+            <div class="terms copyright">
+                <div class="txt">
+                  <p>Todas las documentaciones facilitadas por el Sitio de Globalización de la Comida Coreana son protegidas por la Ley de Derechos de Autor, por lo que, excepto como aviso de los derechos de autor por separado o por la fuente expresada, la Instituto de Promoción de Alimentos Coreanos tendrá en principio los derechos de autor, y se ruega tener en considerción que en caso de su reproducción no autorizada y distribución, corresponderá a la violación de los derechos de propiedad intelectual.</p> 
+                  <p>En caso de querer beneficiarse o disfrutar del beneficio similar a través de la documentación facilitada por el Sitio de Globalización de la Comida Coreana, deberá realizar una gestión previa o adquirir el permiso de la Instituto de Promoción de Alimentos Coreanos, y en caso de gestión o permiso deberá expresar que su fuente es la Instituto de Promoción de Alimentos Coreanos.</p>
+                  <p>En caso de publicar el contenido del Sitio de Globalización de la Comida Coreana en otros sitios siguiendo el procedimiento legítimo, será prohibida la modificación del contenido no autorizado excepto la simple corrección de errores, y en caso de su violacion, será sometido a sanción penal.<br>
+                  En caso de hacer una liga al Sitio de Globalización de la Comida Coreana desde otro sitio de internet, deberá notificarlo sin falta a la Instituto de Promoción de Alimentos Coreanos.<br>
+                  Para  preguntas detalladas relacionadas a lo anterior, póngase en contacto con el administrador del Sitio de Globalización de la Comida Coreana:</p>
+            
+                  <ul>
+                    <li><strong>Teléfono</strong>02) 6300-2070</li>
+                    <li><strong>Fax</strong>02) 6300-2055</li>
+                    <li><strong>Direccón</strong>Instituto de Promoción de Alimentos Coreanos aT Center 601.27, Gangnam-daero, Seocho-gu, Seoul 06774</li>
+                  </ul>
+                  <ul class="url">
+                    <li><strong>YouTube dirección </strong>http://www.youtube.com/koreahansik</li>
+                    <li><strong>Twitter dirección </strong>http://twitter.com/#!/hansikkorea</li>
+                    <li><strong>Facebook dirección</strong>http://ww.facebook.com/hansikkorea</li>
+                  </ul>
                 </div>
-                <div class="asset">
-                    <p>한식 세계화 홈페이지에서 제공하는 자료로 수익을 얻거나 이에 상응하는 혜택을 누리고자 하는 경우에는 한식진흥원 과 사전에 별도의 협의를 하거나 허락을 얻어야 하며, 협의 또는 허락에 의한 경우에도 출처가 한식진흥원임을 반드시 명시해야 합니다.</p>
-                </div>
-                <div class="asset">
-                    <p>한식 세계화 홈페이지의 컨텐츠를 적법한 절차에 따라 다른 인터넷 사이트에 게재하는 경우에도 단순한 오류 정정 이외에 내용의 무단 변경을 금지하여, 이를 위반할 때에는 형사 처벌을 받을 수 있습니다.</p>
-                </div>
-                <div class="asset">
-                    <p>또한 다른 인터넷 사이트에서 한식 세계화 홈페이지로 링크하는 경우에도 링크사실을 한식진흥원에 반드시 통지하여야 합니다. <br>
-                    위와 관련된 사항에 대한 보다 자세한 문의는 한식 세계화 홈페이지 관리자에게 해 주십시오.</p>
-                </div>
-            </div>
+              </div>
         </div>
     </body>
 </html>

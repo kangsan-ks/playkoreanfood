@@ -14,37 +14,37 @@
         <div class="title_box">
             
             <div class="top_img_box">
-                <img src="/img/kr/pop04_img01.png" alt="참가신청서" style="margin: 0 auto;">
+                <img src="/img/es/pop04_img01.png" alt="참가신청서" style="margin: 0 auto;">
             </div>
             <div class="img_title mt_first">
-                <img src="/img/kr/pop04_img02.png" alt="개인정보 수집 동의서">
+                <img src="/img/es/pop04_img02.png" alt="개인정보 수집 동의서">
             </div>
             <div class="middle_box">
                 <div class="youtube_box">
-                    <img class="mb_10" src="/img/kr/pop04_img04.png" alt="youtube">
-                    <img class="youtube_view" src="/img/kr/pop04_img06.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link5 }}">
+                    <img class="mb_10" src="/img/es/pop04_img04.png" alt="youtube">
+                    <img class="youtube_view" src="/img/es/pop04_img06.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link5 }}">
                 </div>
                 <div class="insta_box">
-                    <img class="mb_10" src="/img/kr/pop04_img05.png" alt="instagram">
+                    <img class="mb_10" src="/img/es/pop04_img05.png" alt="instagram">
                     <div class="flex_box">
-                        <img class="insta_view" src="/img/kr/pop04_img07.png" alt="" style="cursor: pointer;">
-                        <img class="insta_view" src="/img/kr/pop04_img08.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view" src="/img/es/pop04_img07.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view" src="/img/es/pop04_img08.png" alt="" style="cursor: pointer;">
                     </div>
                 </div>
             </div>
             <div class="img_title">
-                <img src="/img/kr/pop04_img03.png" alt="참가서약서">
+                <img src="/img/es/pop04_img03.png" alt="참가서약서">
             </div>
             <div class="middle_box">
                 <div class="youtube_box">
-                    <img class="mb_10" src="/img/kr/pop04_img04.png" alt="youtube">
-                    <img class="youtube_view" src="/img/kr/pop04_img11.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link6 }}">
+                    <img class="mb_10" src="/img/es/pop04_img04.png" alt="youtube">
+                    <img class="youtube_view" src="/img/es/pop04_img11.png" alt="" style="cursor: pointer;" data-video-id="{{ $data->video_link6 }}">
                 </div>
                 <div class="insta_box">
-                    <img class="mb_10" src="/img/kr/pop04_img05.png" alt="instagram">
+                    <img class="mb_10" src="/img/es/pop04_img05.png" alt="instagram">
                     <div class="flex_box">
-                        <img class="insta_view2" src="/img/kr/pop04_img09.png" alt="" style="cursor: pointer;">
-                        <img class="insta_view2" src="/img/kr/pop04_img10.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/es/pop04_img09.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/es/pop04_img10.png" alt="" style="cursor: pointer;">
                     </div>
                 </div>
             </div>

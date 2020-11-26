@@ -295,7 +295,7 @@ body{font-size: 16px; color: #333333;}
     .frame_pop .layer_frame .con_bg3{background-image: url('/img/en/pop_bg03.png');background-color: #fff9d0;}
     .org, .con_bg h3{color: #f87e56;}
     .con_bg p{color: #6d6e71;}
-    .con_bg p{font-size: 1.3846vw; word-break: keep-all;}
+    .con_bg p{font-size: 1.3846vw; word-break: break-all;}
     .con_bg p.small{font-size: 1.2308vw;}
     .con_bg span.small{font-size: 1.2308vw;}
     .con_bg span.small2{font-size: 1.0769vw;}

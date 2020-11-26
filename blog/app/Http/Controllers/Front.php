@@ -112,6 +112,24 @@ class Front extends Controller
             }else{
                 echo "<script>alert('Votre demande a été reçue avec succès.');location.href='/fe';</script>";
             }
+        }elseif($lang == 'vi'){
+            if($apply_all < 1){
+                echo "<script>alert('Thông tin bạn tạo không chính xác hoặc không có thông tin đăng ký.');location.href='/fe';</script>";
+            }else{
+                echo "<script>alert('Nó đã được nhận thành công.');location.href='/fe';</script>";
+            }
+        }elseif($lang == 'es'){
+            if($apply_all < 1){
+                echo "<script>alert('La información que creó es incorrecta o no hay información registrada.');location.href='/fe';</script>";
+            }else{
+                echo "<script>alert('Ha sido recibido con éxito.');location.href='/fe';</script>";
+            }
+        }elseif($lang == 'ja'){
+            if($apply_all < 1){
+                echo "<script>alert('作成した情報が間違っているか、登録された情報はありません。');location.href='/fe';</script>";
+            }else{
+                echo "<script>alert('正常に受信されました。');location.href='/fe';</script>";
+            }
         }
     }
 
@@ -155,6 +173,12 @@ class Front extends Controller
                 echo "<script>alert('Your application has been successfully submitted.');location.href='/en';</script>";
             }elseif($lang == 'fe'){
                 echo "<script>alert('La soumission de la vidéo est terminée.');location.href='/fe';</script>";
+            }elseif($lang == 'es'){
+                echo "<script>alert('El envío del video está completo.');location.href='/es';</script>";
+            }elseif($lang == 'vi'){
+                echo "<script>alert('Quá trình gửi video đã hoàn tất.');location.href='/vi';</script>";
+            }elseif($lang == 'ja'){
+                echo "<script>alert('映像送信が完了しました。');location.href='/ja';</script>";
             }
             
         }else if($request->board_type == 'inquiry'){
@@ -185,6 +209,12 @@ class Front extends Controller
                 echo "<script>alert('Inquiry reception is complete.');location.href='/en';</script>";
             }elseif($lang == 'fe'){
                 echo "<script>alert('Votre demande a été reçue.');location.href='/fe';</script>";
+            }elseif($lang == 'es'){
+                echo "<script>alert('Su consulta ha sido recibida.');location.href='/es';</script>";
+            }elseif($lang == 'vi'){
+                echo "<script>alert('Yêu cầu của bạn đã được nhận.');location.href='/vi';</script>";
+            }elseif($lang == 'ja'){
+                echo "<script>alert('お問い合わせの受付完了されました。');location.href='/ja';</script>";
             }
         }
 	}

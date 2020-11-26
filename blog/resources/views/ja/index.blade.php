@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -470,16 +470,16 @@
             console.log(idx);
             switch (idx){
                 case 0:
-                window.open('/kr/pop_0'+(idx+1),'利用規約','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/ja/pop_0'+(idx+1),'利用規約','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 1:
-                window.open('/kr/pop_0'+(idx+1),'個人情報の処理方針','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/ja/pop_0'+(idx+1),'個人情報の処理方針','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 2:
-                window.open('/kr/pop_0'+(idx+1),'メール無断収集拒否','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/ja/pop_0'+(idx+1),'メール無断収集拒否','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 3:
-                window.open('/kr/pop_0'+(idx+1),'著作権ポリシー','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/ja/pop_0'+(idx+1),'著作権ポリシー','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
             }
         });

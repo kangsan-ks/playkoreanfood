@@ -43,8 +43,8 @@
                 <div class="insta_box">
                     <img class="mb_10" src="/img/fe/pop04_img05.png" alt="instagram">
                     <div class="flex_box">
-                        <img class="insta_view2" src="/img/fe/pop04_img07.png" alt="" style="cursor: pointer;">
-                        <img class="insta_view2" src="/img/fe/pop04_img08.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/fe/pop04_img09.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/fe/pop04_img10.png" alt="" style="cursor: pointer;">
                     </div>
                 </div>
             </div>

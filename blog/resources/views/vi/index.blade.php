@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>2020 한식진흥원 영상 공모전</title>
-    <meta property="title" content="한식진흥원">
+    <title>2020 Viện Quảng Bá Ẩm Thực Hàn Quốc Thông tin cuộc thi</title>
+    <meta property="title" content="Viện Quảng Bá Ẩm Thực Hàn Quốc">
     <meta name="description" content="used can be AS GOOD AS NEW with CSE">
     <meta name="keywords" content="CUSTOMER SATISFACTION ENGINEERING">
-    <meta property="og:title" content="한식진흥원">
+    <meta property="og:title" content="Viện Quảng Bá Ẩm Thực Hàn Quốc">
     <meta property="og:description" content="used can be AS GOOD AS NEW with CSE">
     <link rel="shortcut icon" type="image⁄x-icon" href="">
-    <meta name="author" content="한식진흥원">
+    <meta name="author" content="Viện Quảng Bá Ẩm Thực Hàn Quốc">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/font.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/vi/index.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/sweetalert.js"></script>
-    {{-- <script src="/js/functions.js"></script>
-    <script src="/js/grayscale.js"></script> --}}
     <script src="/js/index.js"></script>
 </head>
 <body>
@@ -29,82 +27,97 @@
             <div class="inquiry_box">
                 <div class="layer1 layer">
                     <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
-                    <h2>참가신청 확인</h2>
-                    <form action="check_apply" method="POST" name="fr1" onsubmit="return fun1();">
-                        {{ csrf_field() }}
+                    <h2>Thông tin cuộc thi</h2>
+					<form action="check_apply" method="POST" name="fr1" onsubmit="return fun1();">
+						{{ csrf_field() }}
+                        <div class="form_line">
 						<input type="hidden" value="{{$lang}}" name="lang">
-                        <div class="form_line">
-                            <p>응모 단위</p>
+                            <p>Đơn vị ứng dụng</p>
                             <div>
-                                <label><input type="radio" name="type_3" value="개인" >개인</label>
-                                <label><input type="radio" name="type_3" value="팀">팀</label>
+                                <label><input type="radio" name="type_3" value="개인">Đấu</label>
+                                <label><input type="radio" name="type_3" value="팀">Đội</label>
                             </div>
                         </div>
                         <div class="form_line">
-                            <p>응모 분야</p>
+                            <p>Phân loại đăng ký</p>
                             <div>
-                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)" >김치 주제의 요리 영상 (쿡방)</label>
-                                <label class="m_br"><input type="radio" name="type_1" id="type_1_2_new" value="한식 주제의 요리 영상 (먹방)">한식 주제의 먹방 영상 (먹방)</label>
+                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)">Video Nấu ăn với Kimchi</label>
+                                <label class="m_br"><input type="radio" name="type_1" id="type_1_2_new" value="한식 주제의 요리 영상 (먹방)">Video của Hansik Mukbang</label>
                             </div>
                         </div>
                         <div class="form_line">
-                            <p>제출자 이름</p>
+                            <p>Tên</p>
                             <label>
-                                <input type="text" name="writer" >
+                                <input type="text" name="writer">
                                 <br/>
                                 <span>
-                                    * 신청하실 때 입력하신 대표자이름을 입력해주시기 바랍니다.
+                                    * Vui lòng nhập tên đại diện bạn đã nhập khi đăng ký.
                                 </span>
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>제출자 연락처</p>
+                            <p>Dữ liệu Cá nhân Bắt buộc</p>
                             <label>
-                                <input type="text" name="tel" >
+                                <input type="text" name="tel">
                                 <br/>
                                 <span>
-                                    * 신청하실 때 입력하신 연락처을 입력해주시기 바랍니다.
+                                    * Vui lòng nhập số điện thoại bạn đã nhập khi đăng ký.
                                 </span>
                             </label>
                         </div>
                         <div class="submit_box">
-                            <input type="submit" value="참가신청 확인하기" >
+                            <input type="submit" value="Kiểm tra ứng dụng">
                         </div>
                     </form>
                 </div>
                 <div class="layer2 layer">
                     <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
-                    <h2>문의하기</h2>
+                    <h2>Yêu cầu</h2>
                     <form action="/comment_action" method="POST" name="fr2" onsubmit="return fun2();">
-                        {{ csrf_field() }}
+						{{ csrf_field() }}
                         <input type="hidden" name="lang" value="{{$lang}}">
                         <input type="hidden" name="board_type" value="inquiry">
                         <div class="form_line">
-                            <p>이름</p>
+                            <p>Tên</p>
                             <label>
-                                <input type="text" name="writer" >
+                                <input type="text" name="writer">
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>이메일</p>
+                            <p>Email</p>
                             <label>
-                                <input type="text" name="email" >
+                                <input type="text" name="email">
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>제목</p>
+                            <p>Tiêu đề</p>
                             <label>
-                                <input type="text" name="subject" >
+                                <input type="text" name="subject">
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>문의 내용</p>
+                            <p>Nội dung</p>
                             <label>
-                                <textarea name="contents" ></textarea>
+                                <textarea name="contents"></textarea>
                             </label>
                         </div>
+                        {{-- <div class="form_line_agree">
+                            <div class="agree_text">
+                                <p class="mo_none">1. 온라인 민원 접수 관련하여 한식진흥원에서 아래와 같이 본인의 개인정보를 수집 및 이용하고자 합니다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;내용을 자세히 읽으신 후 동의 여부를 결정하여 주십시오.<br/><br/></p>
+                                <p class="mo_block">1. 온라인 민원 접수 관련하여 한식진흥원에서 아래와 같이 본인의 개인정보를 수집 및 이용하고자 합니다.<br/>내용을 자세히 읽으신 후 동의 여부를 결정하여 주십시오.<br/><br/></p>
+                                <p>
+                                    <b><u>*개인정보의 수집·이용에 관한 사항</u></b><br/>
+                                    <u>1. 수집·이용 항목 : 이메일<br/></u>
+                                    <u>2. 수집·이용 목적 : 온라인 민원 관리(접수, 답변)<br/></u>
+                                    <u>3. 보유·이용 기간 : 5년 위 사항에 대한 동의를 거부할 수 있으나, 이에 대한 동의가 없을 경우 온라인 민원 서비르 이용이 불가능함을 알려드립니다.</u>
+                                </p>
+                            </div>
+                            <div class="agree_box">
+                                <label><input type="checkbox" name=""> 개인정보 수집에 동의합니다.</label>
+                            </div>
+                        </div> --}}
                         <div class="submit_box">
-                            <input type="submit" value="보내기">
+                            <input type="submit" value="Gửi đi">
                         </div>
                     </form>
                 </div>
@@ -112,9 +125,9 @@
         </div>
         <div class="frame_pop">
             <div class="layer_frame">
-                @include('/kr/frame01')
-                @include('/kr/frame02')
-                @include('/kr/frame03')
+                @include('/'.$lang.'/frame01')
+                @include('/'.$lang.'/frame02')
+                @include('/'.$lang.'/frame03')
             </div>
         </div>
         <div id="iframe_bg">
@@ -124,54 +137,54 @@
             <div class="h_inner">
                 <div class="logo">
                     {{-- <a href="https://www.mafra.go.kr/mafra/index.do">
-                        <img class="" src="/img/kr/logo1.png" alt="">
+                        <img class="" src="/img/{{$lang}}/logo1.png" alt="">
                     </a> --}}
                     <a href="https://www.hansik.or.kr/kr/main/main.do">
-                        <img class="" src="/img/kr/logo2.png" alt="">
+                        <img class="" src="/img/{{$lang}}/logo2.png" alt="">
                     </a>                    
                 </div>
                 <div class="nav mo_none">
-                    <a href="#none" class="on_active top_btn">메인</a>
+                    <a href="#none" class="on_active top_btn">Trang chủ</a>
                     <a href="#none" class="frame_pop01">
-                        공모전 소개
+                        Thông tin cuộc thi
                     </a>
                     <a href="#none" class="frame_pop04">
-                        공모전 영상
+                        Thông tin Video
                     </a>
                     <a href="#none" class="inspection inspection2">
-                        문의하기
+                        Yêu cầu
                     </a>
                     <a href="#none" class="inspection inspection1">
-                        참가신청 확인
+                        Cuộc thi sáng tạo Video Hansik
                     </a>
                     <a style="cursor: pointer;" class="lang_change">
-                        <img src="/img/lang_01.png" alt="">
-                        한국어
+                        <img src="/img/lang_07.png" alt="">
+                        Tiếng Việt
                         <img src="/img/lang_arrow.png" alt="" class="arrow">
-                        <ul style="z-index:10;">
+                        <ul style="z-index: 10;">
                             <li onclick="javascript:location.href = '/en';">
                                 <img src="/img/lang_02.png" alt="">
-                                영어
+                                Tiếng Anh
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/zh';">
                                 <img src="/img/lang_03.png" alt="">
-                                중국어
+                                người Trung Quốc
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/fe';">
                                 <img src="/img/lang_04.png" alt="">
-                                프랑스어
+                                người Pháp
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/ja';">
                                 <img src="/img/lang_05.png" alt="">
-                                일본어
+                                tiếng Nhật
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/es';">
                                 <img src="/img/lang_06.png" alt="">
-                                스페인어
+                                người Tây Ban Nha
                             </li>
-                            <li>
-                                <img src="/img/lang_07.png" alt="">
-                                베트남어
+                            <li onclick="javascript:location.href = '/';">
+                                <img src="/img/lang_01.png" alt="">
+                                Hàn Quốc
                             </li>
                         </ul>
                     </a>
@@ -185,52 +198,52 @@
             <div id="m_nav_bg">
                 <ul class="m_nav_list mo_block">
                     <li>
-                        <a href="#none">메인</a>
+                        <a href="#none">Trang chủ</a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop01">
-                            공모전 소개
+                            Thông tin cuộc thi
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop04">
-                            공모전 영상
+                            Thông tin Video
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection2">
-                            문의하기
+                            Yêu cầu
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection1">
-                            참가신청 확인
+                            Cuộc thi sáng tạo Video Hansik
                         </a>
                     </li>
                     <li class="flex_box">
-                        <a href="/en">
+                        <a href="/">
                             <img src="/img/lang_02.png" alt="">
-                            영어
+                            Tiếng Anh
                         </a>
-                        <a href="#none">
+                        <a href="/zh">
                             <img src="/img/lang_03.png" alt="">
-                            중국어
+                            người Trung Quốc
                         </a>
-                        <a href="#none">
+                        <a href="/fe">
                             <img src="/img/lang_04.png" alt="">
-                            프랑스어
+                            người Pháp
                         </a>
-                        <a href="#none">
+                        <a href="/ja">
                             <img src="/img/lang_05.png" alt="">
-                            일본어
+                            tiếng Nhật
                         </a>
-                        <a href="#none">
+                        <a href="/es">
                             <img src="/img/lang_06.png" alt="">
-                            스페인어
+                            người Tây Ban Nha
                         </a>
-                        <a href="#none">
-                            <img src="/img/lang_07.png" alt="">
-                            베트남어
+                        <a href="/">
+                            <img src="/img/lang_01.png" alt="">
+                            Hàn Quốc
                         </a>
                     </li>
                     
@@ -245,35 +258,35 @@
         <div id="section">
             <div class="inner">
                 <div class="item03 contest">
-                    <img src="/img/kr/video_submit_img.png" alt="">
+                    <img src="/img/{{$lang}}/video_submit_img.png" alt="">
                 </div>
                 <div class="sec_title item01">
-                    <img class="mo_none" src="/img/kr/sec1_title.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_title.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_title.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_title.png" alt="">
                 </div>
                 <div class="sec_sub view_video item02" data-video-id="{{ $data->video_link1 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub1.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub1.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub1.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub1.png" alt="">
                 </div>
                 <div class="item03">
-                    <img class="mo_none" src="/img/kr/sec1_sub2.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub2.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub2.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub2.png" alt="">
                 </div>
                 <div class="sec_sub item04">
-                    <img class="mo_none" src="/img/kr/sec1_sub3.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub3.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub3.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub3.png" alt="">
                 </div>
                 <div class="view_video item05" data-video-id="{{ $data->video_link2 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub4.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub4.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub4.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub4.png" alt="">
                 </div>
                 <div class="view_video item06" data-video-id="{{ $data->video_link3 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub5.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub5.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub5.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub5.png" alt="">
                 </div>
                 <div class="view_video item07" data-video-id="{{ $data->video_link4 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub6.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub6.png" alt="">
+                    <img class="mo_none" src="/img/{{$lang}}/sec1_sub6.png" alt="">
+                    <img class="mo_block" src="/img/{{$lang}}/m_sec1_sub6.png" alt="">
                 </div>
             </div>
         </div>
@@ -281,27 +294,27 @@
             <div class="top_line">
                 <div class="f_inner">
                     <ul>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">이용약관</a></li>
-                        <li class="org see_agree"><a href="javascript:void(0);" target="_blank">개인정보처리방침</a></li>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">이메일무단수집거부</a></li>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">저작권정책</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Điều khoản và Điều kiện</a></li>
+                        <li class="org see_agree"><a href="javascript:void(0);" target="_blank">Chính sách Bảo mật</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Chính sách Thu thập Email</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Chính sách Bản quyền</a></li>
                         {{-- <li><a href="https://www.hansik.or.kr/kr/board/contact/form/230?menuId=132" target="_blank">Contact Us</a></li> --}}
                     </ul>
                     <div class="top_btn">
-                        <img class="mo_none" src="/img/kr/go_top_btn.png" alt="">
+                        <img class="mo_none" src="/img/{{$lang}}/go_top_btn.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="f_text f_inner">
                 <div class="f_logo">
                     <a href="https://www.mafra.go.kr/mafra/index.do" target="_blank" class="mo_none">
-                        <img class="mo_none" src="/img/kr/f_logo01.png" alt="">
+                        <img class="mo_none" src="/img/{{$lang}}/f_logo01.png" alt="">
                     </a>
                     <a href="https://www.mafra.go.kr/mafra/index.do">
-                        <img class="mo_block" src="/img/kr/f_logo01.png" alt="">
+                        <img class="mo_block" src="/img/{{$lang}}/f_logo01.png" alt="">
                     </a>
                     <a href="https://www.hansik.or.kr/kr/main/main.do">
-                        <img class="mo_block" src="/img/kr/f_logo02.png" alt="">
+                        <img class="mo_block" src="/img/{{$lang}}/f_logo02.png" alt="">
                     </a>
                 </div>
                 <div class="text">
@@ -315,37 +328,40 @@
                 </div>
                 <div class="img_area">
                     <a href="https://www.hansik.or.kr/kr/main/main.do" target="_blank">
-                        <img class="mo_none small_img" src="/img/kr/f_logo02.png" alt="">
+                        <img class="mo_none" src="/img/{{$lang}}/f_logo02.png" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <script type="text/javascript">
+        $(window).scroll(function(){
+
+        });
 
         function fun1() {
             var obj = document.fr1;
             
             if(obj.type_3.value == '') {
-                alert('응모 단위를 입력하세요');
+                alert('Chọn Đơn vị ứng dụng.');
                 obj.type_3[0].focus();
                 return false;
             }
 
             if(obj.type_1.value == '') {
-                alert('응모 분야를 입력하세요');
+                alert('Chọn danh mục Ứng dụng.');
                 obj.type_1[0].focus();
                 return false;
             }
 
             if(obj.writer.value == '') {
-                alert('이름을 입력하세요');
+                alert('Nhập tên của bạn.');
                 obj.writer.focus();
                 return false;
             }
 
             if(obj.tel.value == '') {
-                alert('연락처를 입력하세요');
+                alert('Nhập thông tin liên hệ của bạn.');
                 obj.tel.focus();
                 return false;
             }
@@ -355,33 +371,29 @@
             var obj = document.fr2;
             
             if(obj.writer.value == '') {
-                alert('이름을 입력하세요');
+                alert('Nhập tên của bạn.');
                 obj.writer.focus();
                 return false;
             }
 
             if(obj.email.value == '') {
-                alert('이메일을 입력하세요');
+                alert('Nhập email của bạn.');
                 obj.email.focus();
                 return false;
             }
 
             if(obj.subject.value == '') {
-                alert('제목을 입력하세요');
+                alert('Nhập chủ đề của bạn.');
                 obj.subject.focus();
                 return false;
             }
 
             if(obj.contents.value == '') {
-                alert('문의 내용을 입력하세요');
+                alert('Nhập nội dung yêu cầu của bạn.');
                 obj.contents.focus();
                 return false;
             }
         }
-        
-        $(window).scroll(function(){
-
-        });
 
         // $('.nav.mo_none > a').hover(function(){
         //     $(this).addClass('on_active');
@@ -397,14 +409,14 @@
             }
         });
 
-        $('.frame_pop04').click(function(){
-            $('.frame_pop').show();
-            $('.con_bg4').show();
-        });
-
         $('.item03').click(function(){
             $('.frame_pop').show();
             $('.con_bg2').show();
+        });
+
+        $('.frame_pop04').click(function(){
+            $('.frame_pop').show();
+            $('.con_bg4').show();
         });
 
         $('.frame_pop01').click(function(){
@@ -419,12 +431,12 @@
 
         $('.con_bg2 .attend_box').click(function(){
             if($("input:checkbox[name=check1]").is(":checked") == false){
-                alert('개인정보처리방침 동의는 필수입니다.');
+                alert('Bạn đồng ý với Chính sách Bảo mật.');
                 $("input:checkbox[name=check1]").focus();
                 return false;
             }
             if($("input:checkbox[name=check2]").is(":checked") == false){
-                alert('참가자 서약서 동의는 필수입니다.');
+                alert('Bắt buộc phải đồng ý với Cam kết của Người tham gia.');
                 $("input:checkbox[name=check2]").focus();
                 return false;
             }
@@ -470,16 +482,16 @@
             console.log(idx);
             switch (idx){
                 case 0:
-                window.open('/kr/pop_0'+(idx+1),'이용약관','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/en/pop_0'+(idx+1),'Các điều khoản và điều kiện','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 1:
-                window.open('/kr/pop_0'+(idx+1),'개인정보처리방침','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/en/pop_0'+(idx+1),'Chính sách bảo mật','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 2:
-                window.open('/kr/pop_0'+(idx+1),'이메일무단수집거부','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/en/pop_0'+(idx+1),'Chính sách Thu thập Email','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 3:
-                window.open('/kr/pop_0'+(idx+1),'저작권정책','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/en/pop_0'+(idx+1),'Chính sách Bản quyền','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
             }
         });

@@ -44,7 +44,7 @@
                     <img class="mb_10" src="/img/en/pop04_img05.png" alt="instagram">
                     <div class="flex_box">
                         <img class="insta_view2" src="/img/en/pop04_img09.png" alt="" style="cursor: pointer;">
-                        <img class="insta_view2" src="/img/en/pop04_img010.png" alt="" style="cursor: pointer;">
+                        <img class="insta_view2" src="/img/en/pop04_img10.png" alt="" style="cursor: pointer;">
                     </div>
                 </div>
             </div>

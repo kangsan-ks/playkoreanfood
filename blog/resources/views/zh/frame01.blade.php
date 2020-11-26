@@ -101,7 +101,7 @@
                             <div class="bot">
                                 <p class="small">
                                     <b>(第一步)</b> 报名时间
-                                    (11.30~12.6) 内在个人社交网站上传参赛视频<br/><br/>
+                                    (11.30~12.6) 内在个人社交网站(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)上传参赛视频<br/><br/>
                                     
                                     <b>(第二步)</b> 登录大赛官网
                                     (www. playkoreanfood. com)点击“提交视频” <br/>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">统计报名时间 (11.30~12.6)内个人社交网站上传的视频播放量与点赞数</span>
+                                    <span class="dot">统计报名时间 (11.30~12.6)内个人社交网站(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)上传的视频播放量与点赞数</span>
                                 </p>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                 <p class="small">
                                     <b>(第一轮审查)</b><br/>
                                     <span class="dot">12.14, 14:00<br/></span>
-                                    <span class="dot">选取统计期限内个人社交网站上传视频的播放量、点赞数据排名前30的视频<br/></span>
+                                    <span class="dot">选取统计期限内个人社交网站(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)上传视频的播放量、点赞数据排名前30的视频<br/></span>
                                     <span class="small2">* 若被视为不合格则不参与审查</span><br/><br/>
                                     
                                     <b>(第二轮审查)</b><br/>

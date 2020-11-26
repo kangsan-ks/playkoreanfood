@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>2020 한식진흥원 영상 공모전</title>
-    <meta property="title" content="한식진흥원">
+    <title>2020 KFPI Concurso de vídeos de Comida Coreana “Hansik”</title>
+    <meta property="title" content="Instituto de Promoción de Alimentos Coreanos (KFPI) ">
     <meta name="description" content="used can be AS GOOD AS NEW with CSE">
     <meta name="keywords" content="CUSTOMER SATISFACTION ENGINEERING">
-    <meta property="og:title" content="한식진흥원">
+    <meta property="og:title" content="Instituto de Promoción de Alimentos Coreanos (KFPI) ">
     <meta property="og:description" content="used can be AS GOOD AS NEW with CSE">
     <link rel="shortcut icon" type="image⁄x-icon" href="">
-    <meta name="author" content="한식진흥원">
+    <meta name="author" content="Instituto de Promoción de Alimentos Coreanos (KFPI) ">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/font.css">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/es/index.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/sweetalert.js"></script>
@@ -29,82 +29,82 @@
             <div class="inquiry_box">
                 <div class="layer1 layer">
                     <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
-                    <h2>참가신청 확인</h2>
+                    <h2>Participación confirmada.</h2>
                     <form action="check_apply" method="POST" name="fr1" onsubmit="return fun1();">
                         {{ csrf_field() }}
 						<input type="hidden" value="{{$lang}}" name="lang">
                         <div class="form_line">
-                            <p>응모 단위</p>
+                            <p>Unidad de aplicación</p>
                             <div>
-                                <label><input type="radio" name="type_3" value="개인" >개인</label>
-                                <label><input type="radio" name="type_3" value="팀">팀</label>
+                                <label><input type="radio" name="type_3" value="개인" >individual</label>
+                                <label><input type="radio" name="type_3" value="팀">equipo</label>
                             </div>
                         </div>
                         <div class="form_line">
-                            <p>응모 분야</p>
+                            <p>Tipo de vídeo</p>
                             <div>
-                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)" >김치 주제의 요리 영상 (쿡방)</label>
-                                <label class="m_br"><input type="radio" name="type_1" id="type_1_2_new" value="한식 주제의 요리 영상 (먹방)">한식 주제의 먹방 영상 (먹방)</label>
+                                <label><input type="radio" name="type_1" id="type_1_1_new" value="김치 주제의 요리 영상 (쿡방)" >Cocinar platos de kimchi</label>
+                                <label class="m_br"><input type="radio" name="type_1" id="type_1_2_new" value="한식 주제의 요리 영상 (먹방)">Vídeo comiendo Hansik</label>
                             </div>
                         </div>
                         <div class="form_line">
-                            <p>제출자 이름</p>
+                            <p>Nombre del representante</p>
                             <label>
                                 <input type="text" name="writer" >
                                 <br/>
                                 <span>
-                                    * 신청하실 때 입력하신 대표자이름을 입력해주시기 바랍니다.
+                                    * Por favor, ingrese el Nombre del representante que ha ingresado en la solicitud de participación.
                                 </span>
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>제출자 연락처</p>
+                            <p>Información de contacto del remitente</p>
                             <label>
                                 <input type="text" name="tel" >
                                 <br/>
                                 <span>
-                                    * 신청하실 때 입력하신 연락처을 입력해주시기 바랍니다.
+                                    * Por favor, ingrese el que ha Información del contactoingresado en la solicitud de participación.
                                 </span>
                             </label>
                         </div>
                         <div class="submit_box">
-                            <input type="submit" value="참가신청 확인하기" >
+                            <input type="submit" value="Su solicitud ha sido enviada correctamente." >
                         </div>
                     </form>
                 </div>
                 <div class="layer2 layer">
                     <div class="layer_close_btn2"><img src="/img/close_img2.png" alt="" class="color_black"></div>
-                    <h2>문의하기</h2>
+                    <h2>Pregunteo</h2>
                     <form action="/comment_action" method="POST" name="fr2" onsubmit="return fun2();">
                         {{ csrf_field() }}
                         <input type="hidden" name="lang" value="{{$lang}}">
                         <input type="hidden" name="board_type" value="inquiry">
                         <div class="form_line">
-                            <p>이름</p>
+                            <p>Nombre</p>
                             <label>
                                 <input type="text" name="writer" >
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>이메일</p>
+                            <p>Correo electrónico</p>
                             <label>
                                 <input type="text" name="email" >
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>제목</p>
+                            <p>Rúbrica</p>
                             <label>
                                 <input type="text" name="subject" >
                             </label>
                         </div>
                         <div class="form_line">
-                            <p>문의 내용</p>
+                            <p>Substancia</p>
                             <label>
                                 <textarea name="contents" ></textarea>
                             </label>
                         </div>
                         <div class="submit_box">
-                            <input type="submit" value="보내기">
+                            <input type="submit" value="Acción">
                         </div>
                     </form>
                 </div>
@@ -112,9 +112,9 @@
         </div>
         <div class="frame_pop">
             <div class="layer_frame">
-                @include('/kr/frame01')
-                @include('/kr/frame02')
-                @include('/kr/frame03')
+                @include('/es/frame01')
+                @include('/es/frame02')
+                @include('/es/frame03')
             </div>
         </div>
         <div id="iframe_bg">
@@ -124,54 +124,54 @@
             <div class="h_inner">
                 <div class="logo">
                     {{-- <a href="https://www.mafra.go.kr/mafra/index.do">
-                        <img class="" src="/img/kr/logo1.png" alt="">
+                        <img class="" src="/img/es/logo1.png" alt="">
                     </a> --}}
                     <a href="https://www.hansik.or.kr/kr/main/main.do">
-                        <img class="" src="/img/kr/logo2.png" alt="">
+                        <img class="" src="/img/es/logo2.png" alt="">
                     </a>                    
                 </div>
                 <div class="nav mo_none">
-                    <a href="#none" class="on_active top_btn">메인</a>
+                    <a href="#none" class="on_active top_btn">Página principal</a>
                     <a href="#none" class="frame_pop01">
-                        공모전 소개
+                        Información del Concurso
                     </a>
                     <a href="#none" class="frame_pop04">
-                        공모전 영상
+                        Vídeo del Concurso
                     </a>
                     <a href="#none" class="inspection inspection2">
-                        문의하기
+                        Consultas
                     </a>
                     <a href="#none" class="inspection inspection1">
-                        참가신청 확인
+                        Participación confirmada
                     </a>
                     <a style="cursor: pointer;" class="lang_change">
-                        <img src="/img/lang_01.png" alt="">
-                        한국어
+                        <img src="/img/lang_06.png" alt="">
+                        Español
                         <img src="/img/lang_arrow.png" alt="" class="arrow">
                         <ul style="z-index:10;">
                             <li onclick="javascript:location.href = '/en';">
                                 <img src="/img/lang_02.png" alt="">
-                                영어
+                                Inglés
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/zh';">
                                 <img src="/img/lang_03.png" alt="">
-                                중국어
+                                Chino
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/fe';">
                                 <img src="/img/lang_04.png" alt="">
-                                프랑스어
+                                Francés
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/ja';">
                                 <img src="/img/lang_05.png" alt="">
-                                일본어
+                                Japonés
                             </li>
-                            <li>
-                                <img src="/img/lang_06.png" alt="">
-                                스페인어
+                            <li onclick="javascript:location.href = '/';">
+                                <img src="/img/lang_01.png" alt="">
+                                Coreano
                             </li>
-                            <li>
+                            <li onclick="javascript:location.href = '/vi';">
                                 <img src="/img/lang_07.png" alt="">
-                                베트남어
+                                Vietnamita
                             </li>
                         </ul>
                     </a>
@@ -185,52 +185,52 @@
             <div id="m_nav_bg">
                 <ul class="m_nav_list mo_block">
                     <li>
-                        <a href="#none">메인</a>
+                        <a href="#none">Página principal</a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop01">
-                            공모전 소개
+                            Información del Concurso
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="frame_pop04">
-                            공모전 영상
+                            Vídeo del Concurso
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection2">
-                            문의하기
+                            Consultas
                         </a>
                     </li>
                     <li>
                         <a href="#none" class="inspection inspection1">
-                            참가신청 확인
+                            Participación confirmada
                         </a>
                     </li>
                     <li class="flex_box">
                         <a href="/en">
                             <img src="/img/lang_02.png" alt="">
-                            영어
+                            Inglés
                         </a>
-                        <a href="#none">
+                        <a href="/zh">
                             <img src="/img/lang_03.png" alt="">
-                            중국어
+                            Chino
                         </a>
-                        <a href="#none">
+                        <a href="/fe">
                             <img src="/img/lang_04.png" alt="">
-                            프랑스어
+                            Francés
                         </a>
-                        <a href="#none">
+                        <a href="/ja">
                             <img src="/img/lang_05.png" alt="">
-                            일본어
+                            Japonés
                         </a>
-                        <a href="#none">
-                            <img src="/img/lang_06.png" alt="">
-                            스페인어
+                        <a href="/">
+                            <img src="/img/lang_01.png" alt="">
+                            Coreano
                         </a>
-                        <a href="#none">
+                        <a href="/vi">
                             <img src="/img/lang_07.png" alt="">
-                            베트남어
+                            Vietnamita
                         </a>
                     </li>
                     
@@ -245,35 +245,35 @@
         <div id="section">
             <div class="inner">
                 <div class="item03 contest">
-                    <img src="/img/kr/video_submit_img.png" alt="">
+                    <img src="/img/es/video_submit_img.png" alt="">
                 </div>
                 <div class="sec_title item01">
-                    <img class="mo_none" src="/img/kr/sec1_title.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_title.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_title.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_title.png" alt="">
                 </div>
                 <div class="sec_sub view_video item02" data-video-id="{{ $data->video_link1 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub1.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub1.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub1.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub1.png" alt="">
                 </div>
                 <div class="item03">
-                    <img class="mo_none" src="/img/kr/sec1_sub2.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub2.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub2.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub2.png" alt="">
                 </div>
                 <div class="sec_sub item04">
-                    <img class="mo_none" src="/img/kr/sec1_sub3.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub3.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub3.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub3.png" alt="">
                 </div>
                 <div class="view_video item05" data-video-id="{{ $data->video_link2 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub4.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub4.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub4.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub4.png" alt="">
                 </div>
                 <div class="view_video item06" data-video-id="{{ $data->video_link3 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub5.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub5.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub5.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub5.png" alt="">
                 </div>
                 <div class="view_video item07" data-video-id="{{ $data->video_link4 }}">
-                    <img class="mo_none" src="/img/kr/sec1_sub6.png" alt="">
-                    <img class="mo_block" src="/img/kr/m_sec1_sub6.png" alt="">
+                    <img class="mo_none" src="/img/es/sec1_sub6.png" alt="">
+                    <img class="mo_block" src="/img/es/m_sec1_sub6.png" alt="">
                 </div>
             </div>
         </div>
@@ -281,27 +281,27 @@
             <div class="top_line">
                 <div class="f_inner">
                     <ul>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">이용약관</a></li>
-                        <li class="org see_agree"><a href="javascript:void(0);" target="_blank">개인정보처리방침</a></li>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">이메일무단수집거부</a></li>
-                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">저작권정책</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Términos y condiciones de uso</a></li>
+                        <li class="org see_agree"><a href="javascript:void(0);" target="_blank">Política de protección de datos personales</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Denegación de recolección sin autorización de correo electrónico</a></li>
+                        <li class="see_agree"><a href="javascript:void(0);" target="_blank">Política de derechos de autor</a></li>
                         {{-- <li><a href="https://www.hansik.or.kr/kr/board/contact/form/230?menuId=132" target="_blank">Contact Us</a></li> --}}
                     </ul>
                     <div class="top_btn">
-                        <img class="mo_none" src="/img/kr/go_top_btn.png" alt="">
+                        <img class="mo_none" src="/img/es/go_top_btn.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="f_text f_inner">
                 <div class="f_logo">
                     <a href="https://www.mafra.go.kr/mafra/index.do" target="_blank" class="mo_none">
-                        <img class="mo_none" src="/img/kr/f_logo01.png" alt="">
+                        <img class="mo_none" src="/img/es/f_logo01.png" alt="">
                     </a>
                     <a href="https://www.mafra.go.kr/mafra/index.do">
-                        <img class="mo_block" src="/img/kr/f_logo01.png" alt="">
+                        <img class="mo_block" src="/img/es/f_logo01.png" alt="">
                     </a>
                     <a href="https://www.hansik.or.kr/kr/main/main.do">
-                        <img class="mo_block" src="/img/kr/f_logo02.png" alt="">
+                        <img class="mo_block" src="/img/es/f_logo02.png" alt="">
                     </a>
                 </div>
                 <div class="text">
@@ -315,7 +315,7 @@
                 </div>
                 <div class="img_area">
                     <a href="https://www.hansik.or.kr/kr/main/main.do" target="_blank">
-                        <img class="mo_none small_img" src="/img/kr/f_logo02.png" alt="">
+                        <img class="mo_none small_img" src="/img/es/f_logo02.png" alt="">
                     </a>
                 </div>
             </div>
@@ -327,25 +327,25 @@
             var obj = document.fr1;
             
             if(obj.type_3.value == '') {
-                alert('응모 단위를 입력하세요');
+                alert('Ingrese la unidad de la aplicación');
                 obj.type_3[0].focus();
                 return false;
             }
 
             if(obj.type_1.value == '') {
-                alert('응모 분야를 입력하세요');
+                alert('Ingrese el campo de solicitud');
                 obj.type_1[0].focus();
                 return false;
             }
 
             if(obj.writer.value == '') {
-                alert('이름을 입력하세요');
+                alert('por favor, escriba su nombre');
                 obj.writer.focus();
                 return false;
             }
 
             if(obj.tel.value == '') {
-                alert('연락처를 입력하세요');
+                alert('Por favor, introduce tu información de contacto');
                 obj.tel.focus();
                 return false;
             }
@@ -355,25 +355,25 @@
             var obj = document.fr2;
             
             if(obj.writer.value == '') {
-                alert('이름을 입력하세요');
+                alert('por favor, escriba su nombre');
                 obj.writer.focus();
                 return false;
             }
 
             if(obj.email.value == '') {
-                alert('이메일을 입력하세요');
+                alert('Por favor introduzca su correo electrónico');
                 obj.email.focus();
                 return false;
             }
 
             if(obj.subject.value == '') {
-                alert('제목을 입력하세요');
+                alert('Ingresa un título');
                 obj.subject.focus();
                 return false;
             }
 
             if(obj.contents.value == '') {
-                alert('문의 내용을 입력하세요');
+                alert('Por favor ingrese su consulta');
                 obj.contents.focus();
                 return false;
             }
@@ -419,12 +419,12 @@
 
         $('.con_bg2 .attend_box').click(function(){
             if($("input:checkbox[name=check1]").is(":checked") == false){
-                alert('개인정보처리방침 동의는 필수입니다.');
+                alert('Es obligatorio aceptar la política de privacidad.');
                 $("input:checkbox[name=check1]").focus();
                 return false;
             }
             if($("input:checkbox[name=check2]").is(":checked") == false){
-                alert('참가자 서약서 동의는 필수입니다.');
+                alert('El consentimiento del Compromiso del Participante es obligatorio.');
                 $("input:checkbox[name=check2]").focus();
                 return false;
             }
@@ -470,16 +470,16 @@
             console.log(idx);
             switch (idx){
                 case 0:
-                window.open('/kr/pop_0'+(idx+1),'이용약관','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/es/pop_0'+(idx+1),'Términos y condiciones de uso','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 1:
-                window.open('/kr/pop_0'+(idx+1),'개인정보처리방침','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/es/pop_0'+(idx+1),'Política de protección de datos personales','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 2:
-                window.open('/kr/pop_0'+(idx+1),'이메일무단수집거부','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/es/pop_0'+(idx+1),'Denegación de recolección sin autorización de correo electrónico','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
                 case 3:
-                window.open('/kr/pop_0'+(idx+1),'저작권정책','width = 500, height = 500, top = 100, left = 200, location = no');
+                window.open('/es/pop_0'+(idx+1),'Política de derechos de autor','width = 500, height = 500, top = 100, left = 200, location = no');
                 break;
             }
         });

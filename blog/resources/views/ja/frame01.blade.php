@@ -102,7 +102,7 @@
                                 <p class="small">
                                     <b>(1段階)</b> 受付期間
                                     (11.30~12.6) 내에 
-                                    内に個人のSNSチャンネルに出品映像をアップロード。<br/><br/>
+                                    内に個人のSNSチャンネルに(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)出品映像をアップロード。<br/><br/>
                                     
                                     <b>(2段階)</b> 公募展のホームぺージ(www. playkoreanfood. com)で［映像を提出する］をクリック。<br/>
                                     ※ 個人情報と映像のURLを入力して提出してください。 <br/>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">受付期間（11.30～12.6）内にアップロードされた映像の再生回数と「いいね」の数を集計。</span>
+                                    <span class="dot">受付期間（11.30～12.6）内に個人SNSチャンネルに(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)アップロードされた映像の再生回数と「いいね」の数を集計。</span>
                                 </p>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                 <p class="small">
                                     <b>(1次審査)</b><br/>
                                     <span class="dot">12.14, 14:00<br/></span>
-                                    <span class="dot">個人のSNSチャンネルにアップロードされた映像の再生回数と「いいね」を合計して上位30作品を選定。<br/></span>
+                                    <span class="dot">個人のSNSチャンネルに(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)アップロードされた映像の再生回数と「いいね」を合計して上位30作品を選定。<br/></span>
                                     <span class="small2">* 欠格事由に該当する場合、審査から除外されます。</span><br/><br/>
                                     
                                     <b>(2次審査)</b><br/>

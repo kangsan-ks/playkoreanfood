@@ -3,207 +3,189 @@
     <div class="content_box">
         <div class="title_box">
             <div class="img_title">
-                <img src="/img/kr/pop01_img01.png" alt="소개">
+                <img src="/img/es/pop01_img01.png" alt="소개">
             </div>
             <p class="title_text mo_none">
                 {{-- <span>한식진흥원 <b>#PlayKoreanFood</b> 외국인 대상 한식 영상 공모전</span> --}}
-                전 세계로 뻗어 나가는 한류 속에서 한식에 대한 국내외 관심이 상승하는 요즘!<br/>
-                다양한 언어권 사람들이 일상 속에서 한식을 요리하고 한식을 함께 먹고 즐기는 모습을<br/>
-                전 세계 사람들과 함께 나누기 위해 한식 영상 공모전 <b>#Play Korean Food</b> 를 개최합니다.
+                En medio de la expansión a nivel global de la ola coreana, Hallyu, también ha aumentado el interés hacia la comida coreana, Hansik, a nivel internacional. A fin de compartir con el mundo entero las imágenes de escenas que consisten en cocinar y compartir comiendo la comida coreana en la vida diaria de los ciudadanos de las distintas partes del mundo, hemos organizado este concurso de vídeos <b>#Play Korean Food</b>
             </p>
             <p class="title_text mo_block">
                 {{-- <span>한식진흥원 <b>#PlayKoreanFood</b> 외국인 대상 한식 영상 공모전</span> --}}
-                전 세계로 뻗어 나가는 한류 속에서 한식에 대한 국내외 관심이 상승하는 요즘!
-                다양한 언어권 사람들이 일상 속에서 한식을 요리하고 한식을 함께 먹고 즐기는 모습을
-                전 세계 사람들과 함께 나누기 위해 한식 영상 공모전 <b>#Play Korean Food</b> 를 개최합니다.
+                En medio de la expansión a nivel global de la ola coreana, Hallyu, también ha aumentado el interés hacia la comida coreana, Hansik, a nivel internacional. A fin de compartir con el mundo entero las imágenes de escenas que consisten en cocinar y compartir comiendo la comida coreana en la vida diaria de los ciudadanos de las distintas partes del mundo, hemos organizado este concurso de vídeos <b>#Play Korean Food</b>
             </p>
         </div>
         <div class="middle_box">
             <ul>
                 <li>
-                    <h3 class="be01">참가 대상</h3>
+                    <h3 class="be01">Quiénes pueden participar</h3>
                     <div class="list_text_box">
-                        <p>국내외 외국인 누구나<span class="small">(한국 국적, 이중국적자 제외)</span></p>
+                        <p>cualquier extranjero en Corea o en el exterior <span class="small">(no podrán participar aquellos de nacionalidad coreana o múltiple)</span></p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be02">공모분야</h3>
+                    <h3 class="be02">Tipos de vídeos</h3>
                     <div class="list_text_box">
-                        <p class="bold">(1) 김치를 주제로 하는 요리 영상</p>
-                        <p class="pad25">쉽고 빠르게 그리고 누구나, 모두와 함께 즐기고 요리할 수 있는 ‘김치’를 활용한 한식 쿡방</p>
-                        <p class="bold">(2) 한식을 주제로 하는 먹방 영상</p>
-                        <p class="pad25">주변에서 쉽게 찾을 수 있고 접근성이 뛰어난 한식 먹방</p>
+                        <p class="bold">(1) Cocinar platos de kimchi</p>
+                        <p class="pad25">Cocina de kimchi, de preparación fácil y rápida, para que cualquiera pueda cocinar y disfrutar en compañía.</p>
+                        <p class="bold">(2) Vídeo comiendo Hansik</p>
+                        <p class="pad25">Platos de comida coreana populares y de fácil acceso.</p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be03">출품수</h3>
+                    <h3 class="be03">Cantidad de vídeos</h3>
                     <div class="list_text_box">
-                        <p>출품수는 제한이 없으나 <b>당선작은 1개로 제한</b><br/><span class="small">※  단체로 응모할 경우에는 1개팀은 1명으로 간주하여 상금은 대표 1명에게 지급</span></p>
+                        <p>no hay límite en la cantidad de vídeos a presentar, pero solo se <b>premiará 1 vídeo por persona.</b><br/><span class="small">※ En caso de presentaciones en equipo, se considerará a 1 equipo como 1 persona, por lo que el premio se le otorgará al representante del equipo.</span></p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be04">출품규격</h3>
-                    <div class="list_text_box">
-                        <p class="mo_none">
-                            <span class="dot">ENG 카메라, 캠코더, 스마트폰 등을 활용한 동영상 제작물<br/></span>
-                            <span class="dot">파일 형태: <b>avi. mp4</b> 등<br/></span>
-                            <span class="dot">영상크기(해상도): <b>1920 × 1080 픽셀 이상</b><br/></span>
-                            <span class="dot">분량: <b>30분 이내</b><br/></span>
-                            <span class="dot">수상자 영상 제출파일명: <b class="org">[2020 #Play Korean Food]_참가자성명_작품제목</b></span>
-                        </p>
-                        <p class="mo_block">
-                            <span class="dot">ENG 카메라, 캠코더, 스마트폰 등을 활용한 동영상 제작물<br/></span>
-                            <span class="dot">파일 형태: <b>avi. mp4</b> 등<br/></span>
-                            <span class="dot">영상크기(해상도): <b>1920 × 1080 픽셀 이상</b><br/></span>
-                            <span class="dot">분량: <b>30분 이내</b><br/></span>
-                            <span class="dot">수상자 영상 제출파일명:<br/><b class="org">[2020 #Play Korean Food]_참가자성명_작품제목</b></span>
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <h3 class="be05">필수사항</h3>
+                    <h3 class="be04">Formatos de vídeo</h3>
                     <div class="list_text_box">
                         <p class="mo_none">
-                            <span class="dot">영상 제목: 영상 제목 앞 <b class="org">[2020 #Play Korean Food]</b> 명시<br/></span>
-                            <span class="dot">필수 해시태그: <b class="org">#Play_Korean_Food #Hansik #KoreaFood #Play_Hansik</b> 그 외의 한식 태그</span>
+                            <span class="dot">Vídeo grabado con cámara ENG, cámara de vídeo, teléfono inteligente, etc.<br/></span>
+                            <span class="dot">Tipo de archivo: <b>avi. mp4</b> etc.<br/></span>
+                            <span class="dot">Tamaño de vídeo (resolución): <b>1920 × 1080 픽셀 이상</b><br/></span>
+                            <span class="dot">Duración: <b>máximo de 30 minutos.</b><br/></span>
+                            <span class="dot">Nombre que deberá llevar el archivo a presentar: <b class="org">[2020 #Play Korean Food]_Nombre y apellido_Título del vídeo.</b></span>
                         </p>
                         <p class="mo_block">
-                            <span class="dot">영상 제목: 영상 제목 앞<br/><b class="org">[2020 #Play Korean Food]</b> 명시<br/></span>
-                            <span class="dot">필수 해시태그:<br/><b class="org">#Play_Korean_Food #Hansik #KoreaFood #Play_Hansik</b> 그 외의 한식 태그</span>
+                            <span class="dot">Vídeo grabado con cámara ENG, cámara de vídeo, teléfono inteligente, etc.<br/></span>
+                            <span class="dot">Tipo de archivo: <b>avi. mp4</b> etc.<br/></span>
+                            <span class="dot">Tamaño de vídeo (resolución): <b>1920 × 1080 픽셀 이상</b><br/></span>
+                            <span class="dot">Duración: <b>máximo de 30 minutos.</b><br/></span>
+                            <span class="dot">Nombre que deberá llevar el archivo a presentar:<br/><b class="org">[2020 #Play Korean Food]_Nombre y apellido_Título del vídeo.</b></span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be06">결격사유</h3>
+                    <h3 class="be05">Requisito esencial</h3>
+                    <div class="list_text_box">
+                        <p class="mo_none">
+                            <span class="dot">Título del vídeo: no olvidar poner <b class="org">[2020 #Play Korean Food]</b> antes del título.<br/></span>
+                            <span class="dot">Hashtag esencial: <b class="org">#Play_Korean_Food #Hansik #KoreaFood #Play_Hansik</b> entre otros sobre la comida coreana.</span>
+                        </p>
+                        <p class="mo_block">
+                            <span class="dot">Título del vídeo: no olvidar poner<br/><b class="org">[2020 #Play Korean Food]</b> antes del título.<br/></span>
+                            <span class="dot">Hashtag esencial:<br/><b class="org">#Play_Korean_Food #Hansik #KoreaFood #Play_Hansik</b> entre otros sobre la comida coreana.</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="be06">Descalificaciones</h3>
                     <div class="list_text_box">
                         <p>
-                            <span class="dot">한식을 부정적이거나 지나치게 자극적인 소재로 활용하는 경우<br/></span>
-                            <span class="dot">응모영상이 공모전 취지에 맞지 않다고 판단되는 경우<br/></span>
-                            <span class="dot">특정 제품명이나 상표명을 노골적으로 광고하는 경우(PPL)<br/></span>
-                            <span class="dot">비정상적인 방법으로 좋아요, 조회수를 획득했다고 판단되는 경우(추가검증자료 제출요청 할 수 있음)<br/></span>
-                            <span class="dot">개인정보 공개 미동의 등 공모전 참가에 부적합 하다고 판단되는 경우                             </span>
+                            <span class="dot">Uso y abuso de manera negativa de la comida coreana.<br/></span>
+                            <span class="dot">En caso de que el vídeo sea considerado inapto para el concurso.<br/></span>
+                            <span class="dot">Publicidad directa de marcas y productos específicos (PPL).<br/></span>
+                            <span class="dot">En caso de que se considere que los “Me gusta” y la cantidad de visitas hayan sido obtenidos indebidamente (se podrán solicitar material adicional para la comprobación).<br/></span>
+                            <span class="dot">Casos inadecuados para la participación en el concurso; que no acepte la política de privacidad, etc.</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be07">접수방법, 심사기준 및 결과발표</h3>
+                    <h3 class="be07">Presentación del vídeo, evaluaciones y publicación del resultado</h3>
                     {{-- <div class="list_text_box">
                         <p><span class="dot">접수기간: <b>한국시간 11월 30일 오전 12:00 ~ 12월 06일 오후 11:59</b></span></p>
                         <p class="pad95 small">* 개인 SNS채널 및 공모전 홈페이지 모두 위 기간에 응모해야 인정함</span></p>
                         <p><span class="dot">응모작 집계기간: <b>한국시간 11시 30일 오전 12:00 ~ 12월 14일 오후 02:00</b></span></p>
-                        <p class="mo_none"><span class="dot">심사일정: <b><span class="org">(1차 심사)</span> 한국시간 12월 14일 오후 02:00</b></span></p>
-                        <p class="mo_block"><span class="dot">심사일정: <br/><b><span class="org">(1차 심사)</span> 한국시간 12월 14일 오후 02:00</b></span></p>
-                        <p class="pad95"><b><span class="org">(2차 심사)</span> 한국시간 12월 16일 오후 02:00</b></span></p>
+                        <p class="mo_none"><span class="dot">심사일정: <b><span class="org">(1º Evaluación)</span> 한국시간 12월 14일 오후 02:00</b></span></p>
+                        <p class="mo_block"><span class="dot">심사일정: <br/><b><span class="org">(1º Evaluación)</span> 한국시간 12월 14일 오후 02:00</b></span></p>
+                        <p class="pad95"><b><span class="org">(2º Evaluación)</span> 한국시간 12월 16일 오후 02:00</b></span></p>
                         <p><span class="dot">결과발표: <b class="org">한국시간 12월 18일 오후 06:00</b></span></p>
                         <p class="pad95 small">* 내부사정에 따라 발표일자 변동가능</p>
                     </div> --}}
                     <div class="table_box">
                         <div>
                             <div class="top">
-                                <p><b>접수기간</b><br/>(11.30 ~ 12.06)</p>
+                                <p><b>Presentación</b><br/>(30.nov-6.dic)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <b>(1단계)</b> 접수기간
-                                    (11.30~12.6) 내에 
-                                    개인 SNS채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)
-                                    참가영상 업로드<br/><br/>
+                                    <b>(Paso 1)</b>Subir el vídeo en el canal de SNS personal(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)durante el periodo del 30.nov al 6.dic.<br/><br/>
                                     
-                                    <b>(2단계)</b> 공모전 
-                                    홈페이지(www.
-                                    playkoreanfood.
-                                    com)에서
-                                    ‘영상 제출하기’ 클릭<br/>
-                                    ※개인정보 및 영상
-                                    URL 입력하고
-                                    제출하기 
-                                    ※1단계, 2단계<br/>
-                                    모두 완료하면
-                                    공모전 참여완료 
+                                    <b>(Paso 2)</b>Hacer clic en “Enviar el vídeo” de la página web del Concurso (www. playkoreanfood. com)<br/>
+                                    <br/>
+                                    ※ Rellenar los datos personales y añadir el URL del vídeo.<br/>
+                                    ※ Si ha cumplido los Pasos 1 y 2, ha participado en el Concurso.                                
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>응모작 집계기간</b><br/>(11.30 ~   12.14, 14:00)</p>
+                                <p><b>eriodo de conteo</b><br/>(30.nov-14.dic 14:00 )</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <span class="dot">접수기간(11.30~12.6) 내 개인 sns채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)에 업로드를 완료한 영상의 조회수와 좋아요 수치를 집계</span>
+                                    <span class="dot">Se contarán las visitas y los “Me gusta” del vídeo subido en el canal de SNS personal(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)durante el periodo de presentación (30.nov-6.dic).</span>
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>1차 심사</b>(12.14, 14:00)<br/>/ <b>2차 심사</b>(12.16)</p>
+                                <p><b>1º Evaluación</b>(14.dic, 14:00)<br/>/ <b>2º Evaluación</b>(16.dic)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    <b>(1차 심사)</b><br/>
-                                    <span class="dot">12.14, 14:00<br/></span>
-                                    <span class="dot">응모작 집계기간 중 개인 SNS채널(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)에
-                                        올린 영상의 조회수, 좋아요 합계결과로
-                                        상위 30개 영상선정<br/></span>
-                                    <span class="small2">* 결격사유에 해당하는 경우는 심사제외</span><br/><br/>
+                                    <b>(1º Evaluación)</b><br/>
+                                    <span class="dot">14.dic, 14:00<br/></span>
+                                    <span class="dot">Se seleccionarán los 30 vídeos con el mayor número de visitas y Me gusta, subidos en el SNS personal(<img src="/img/sns_img.png" alt="" class="sns_logo_img">)durante el periodo de conteo.<br/></span>
+                                    <span class="small2">* Los vídeos descalificados serán excluidos.</span><br/><br/>
                                     
-                                    <b>(2차 심사)</b><br/>
-                                    <span class="dot">12.16<br/></span>
-                                    <span class="dot">1차 심사영상 결과 70%<br/>
-                                        (조회수 50% + 좋아요 20%) 및
-                                        내외부 심사위원 평가 30%
-                                        (기획 및 구성력 15% + 독창성 10%
-                                        + 창의성 5%)</span>                                    
+                                    <b>(2º Evaluación)</b><br/>
+                                    <span class="dot">16.dic<br/></span>
+                                    <span class="dot">70% del resultado de la 1º Evaluación<br/>
+                                        (cantidad de visitas 50% + “Me gusta” 20%), y, 
+30% de los jurados 
+ (planificación y contenido 15% + originalidad 10% + creatividad 5%)
+</span>                                    
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>결과발표</b><br/>(12.18)</p>
+                                <p><b>Resultados</b><br/>(18.dic)</p>
                             </div>
                             <div class="bot">
                                 <p class="small">
-                                    공모전 홈페이지
-                                    발표 및 시상금
-                                    개별지급                                    
+                                    Se publicará en la página web y el premio será entregado de manera individual.                               
                                 </p>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be08">시상 및 상금</h3>
+                    <h3 class="be08">Clasificación de los premios</h3>
                     <div class="list_text_box">
-                        <p><b>총 상금 USD 37,000</b><br/><span class="dot">각 분야별 16개 작품</p>
+                        <p><b>total de USD 37,000</b><br/><span class="dot">16 vídeos por tipo</p>
                     </div>
                     <div class="table_box table_box2">
                         <div>
                             <div class="top line_54">
-                                <p><b>시상</b></p>
+                                <p><b>Tipo</b></p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
-                                   대상
+                                    Excelente
                                 </p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
-                                   우수상
+                                    Muy bueno
                                 </p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
-                                   장려상
+                                    Bueno
                                 </p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
-                                   입선
+                                    Acertado
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="top line_54">
-                                <p><b>선정작</b></p>
+                                <p><b>Cantidad</b></p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
@@ -228,7 +210,7 @@
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>김치 주제 요리</b><br/>상금(USD)</p>
+                                <p><b>Cocinar platos de kimchi</b><br/>Premio(USD)</p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
@@ -253,7 +235,7 @@
                         </div>
                         <div>
                             <div class="top">
-                                <p><b>한식 주제 먹방</b><br/>상금(USD)</p>
+                                <p><b>Vídeo Comiendo Hansik</b><br/>Premio(USD)</p>
                             </div>
                             <div class="bot bot2">
                                 <p class="small bold">
@@ -278,29 +260,29 @@
                         </div>
                     </div>
                     <div class="list_text_box">
-                        <p>※ 작품수준, 출품된 작품 수를 고려하여 시상종류 및 수상작 수가 조정될 수 있으며, 적격자 없을시에는 관련부분에 시상을 하지 않을 수 있음</p>
+                        <p>※ El tipo y la cantidad de premios podrán modificarse de acuerdo al nivel y la cantidad de vídeos presentados.</p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be09 no_be">유의사항</h3>
+                    <h3 class="be09 no_be">Advertencia</h3>
                     <div class="list_text_box">
                         <p>
-                            <span class="dot">개인정보 수집 미동의 시 공모전 참여에 제한됩니다.<br/></span>
-                            <span class="dot">공모 접수기간 (11월 30일(월) ~ 12월 6일(일)) 중 업로드 된 게시물만이 공모 참여로 인정됩니다.<br/></span>
-                            <span class="dot">공모 기간 중 또는 발표 후 게시물 삭제 시에 수상이 취소될 수 있습니다.</span>
+                            <span class="dot">Si no acepta la recolección de datos personales se le podrá restringir la participación en el concurso.<br/></span>
+                            <span class="dot">Solo se reconocerán los vídeos subidos durante el periodo de participación indicado (en base a la fecha subido en el SNS personal(<img src="/img/sns_img.png" alt="" class="sns_logo_img">).<br/></span>
+                            <span class="dot">En caso de eliminar el vídeo durante el periodo del concurso o después de la publicación de los resultados, el premio podrá ser cancelado.</span>
                         </p>
                     </div>
                 </li>
                 <li>
-                    <h3 class="be10 no_be">문의처</h3>
+                    <h3 class="be10 no_be">Consultas</h3>
                     <div class="list_text_box">
                         <p class="mo_none">
-                            <span style="font-weight: 500;">한식진흥원 공모전 운영사무국</span><br/>
-                            · 연락처: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 이메일 : hansik@doitco.com
+                            <span style="font-weight: 500;">Oficina de Gestión del Concurso del Instituto de Promoción de Alimentos Coreanos (KFPI)</span><br/>
+                            · Contactos: +82-2-749-9979&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Correo electrónico : hansik@doitco.com
                         </p>
                         <p class="mo_block">
-                            <span style="font-weight: 500;">한식진흥원 공모전 운영사무국</span><br/>
-                            · 연락처: +82-2-749-9979<br/>· 이메일 : hansik@doitco.com
+                            <span style="font-weight: 500;">Oficina de Gestión del Concurso del Instituto de Promoción de Alimentos Coreanos (KFPI)</span><br/>
+                            · Contactos: +82-2-749-9979<br/>· Correo electrónico : hansik@doitco.com
                         </p>
                     </div>
                 </li>
